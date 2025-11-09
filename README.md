@@ -1,10 +1,12 @@
-<p style="text-align: center;font-weight: bold;">This project has been migrated to the UBCO Aerospace Club <a href="https://github.com/UBCOAerospaceClub/2025_SSDV3">2025_SSDV3</a> fork.</p>
-
 # The Super Step Down V3
 
 ![Top View](kicad/SSDV3_board_snazzy.png)
 
-The SSDV3 is an independently-made, non-isolated DC/DC converter designed for unmanned aerial systems (UAS). The module is intended for converting 50V battery input down to 5-12V output at a maximum load of 8A. It acts as a reliable battery-eliminator circuit (BEC) through effective regulation in the presence of voltage transients caused by high-power brushless motors.
+The SSDV3 is a non-isolated DC/DC converter module designed for unmanned aerial systems (UAS). The module is intended for converting 50V battery input down to 5-12V output at a maximum load of 8A. It acts as a reliable battery-eliminator circuit (BEC) through effective regulation in the presence of voltage transients caused by high-power brushless motors.
+
+The SSDV3 was independently started by Julian Joaquin as an open-source hardware project, and has been adapted by the UBCO Aerospace Club for its own use in collaboration with Julian.
+
+*We are working on producing the documentation.*
 
 ## Specifications
 
@@ -44,7 +46,7 @@ The SSDV3 is an independently-made, non-isolated DC/DC converter designed for un
 
 ## Comparison with Last Super Step Down
 
-This design is motivated by the challenges encountered by the [UBCO Aerospace Club](https://github.com/UBCOAerospaceClub) with their Jellyfish quadcopter when powering auxiliary electronics off the drone's main battery. Lessons were learned through a variety of integration failures, investigations, and validation testing, and these experiences informed the development of version 3 of the Super Step Down series.
+This design is motivated by the challenges encountered with the Jellyfish quadcopter when powering auxiliary electronics off the drone's main battery. Lessons were learned through a variety of integration failures, investigations, and validation testing, and these experiences informed the development of version 3 of the Super Step Down series.
 
 ![Comparison](kicad/SSDV3_comparison_gimp.png)
 
@@ -61,4 +63,6 @@ This design is motivated by the challenges encountered by the [UBCO Aerospace Cl
 
 Copyright &#169; Julian Joaquin 2025
 
-Hardware Source Licensed under CERN-OHL-W version 2
+Documentation and media are licensed under CC BY-SA 4.0
+
+Hardware source material licensed under CERN-OHL-W version 2

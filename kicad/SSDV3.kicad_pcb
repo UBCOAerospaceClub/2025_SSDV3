@@ -11,9 +11,8 @@
 		(title "Super Step Down V3")
 		(date "2025-11-08")
 		(rev "D")
-		(company "Author: Julian Joaquin")
-		(comment 1 "Licensed under CERN-OHL-W version 2")
-		(comment 2 "Copyright © Julian Joaquin, 2025")
+		(company "UBCO Aerospace")
+		(comment 1 "Author(s): Julian Joaquin")
 		(comment 4 "A 12S battery eliminator circuit (BEC) for UAS applications.")
 	)
 	(layers
@@ -26773,6 +26772,120 @@
 				(thickness 0.15)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text_box "Copyright © Julian Joaquin 2025, Licensed under CERN-OHL-W version 2.\n\nUBCO is a registered trademark of the University of British Columbia. For guidelines on the permitted uses of UBC trademarks, please see http://universitycounsel.ubc.ca/university-trade-marks/."
+		(start 112.2 185.2)
+		(end 174 195)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "Cmts.User")
+		(uuid "eb67c0b2-4859-474a-a9db-eb206c66ec65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+	)
+	(gr_text_box "Copyright © Julian Joaquin 2025, Licensed under CERN-OHL-W version 2.\n\nUBCO is a registered trademark of the University of British Columbia. For guidelines on the permitted uses of UBC trademarks, please see http://universitycounsel.ubc.ca/university-trade-marks/."
+		(start 112.2 185.2)
+		(end 174 195)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "B.Fab")
+		(uuid "73bc9bf9-e247-40aa-86dc-f7d1efcfb59a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+	)
+	(gr_text_box "Copyright © Julian Joaquin 2025, Licensed under CERN-OHL-W version 2.\n\nUBCO is a registered trademark of the University of British Columbia. For guidelines on the permitted uses of UBC trademarks, please see http://universitycounsel.ubc.ca/university-trade-marks/."
+		(start 112.2 185.2)
+		(end 174 195)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "F.Fab")
+		(uuid "5c0c9f1f-f72b-47fa-9a34-0a122c3e96ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+	)
+	(gr_text_box "Copyright © Julian Joaquin 2025, Licensed under CERN-OHL-W version 2.\n\nUBCO is a registered trademark of the University of British Columbia. For guidelines on the permitted uses of UBC trademarks, please see http://universitycounsel.ubc.ca/university-trade-marks/."
+		(start 112.2 185.2)
+		(end 174 195)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "F.Fab")
+		(uuid "d2fd994f-e215-4c19-8fdd-c4e2c828244a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+	)
+	(gr_text_box "Copyright © Julian Joaquin 2025, Licensed under CERN-OHL-W version 2.\n\nUBCO is a registered trademark of the University of British Columbia. For guidelines on the permitted uses of UBC trademarks, please see http://universitycounsel.ubc.ca/university-trade-marks/."
+		(start 112.2 185.2)
+		(end 174 195)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "User.1")
+		(uuid "58a3dca4-a721-4eea-a50c-e09a525f6b17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+	)
+	(gr_text_box "Copyright © Julian Joaquin 2025, Licensed under CERN-OHL-W version 2.\n\nUBCO is a registered trademark of the University of British Columbia. For guidelines on the permitted uses of UBC trademarks, please see http://universitycounsel.ubc.ca/university-trade-marks/."
+		(start 112.2 185.2)
+		(end 174 195)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "User.2")
+		(uuid "39e24c88-f64f-4539-b211-2a40c20a7b18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
 		)
 	)
 	(dimension
