@@ -59,10 +59,12 @@ This design is motivated by the challenges encountered with the Jellyfish quadco
 - Reverse polarity protection for the majority of the circuit
 - Lower losses by using direct wire solder pads instead of terminal block
 
-## Copyright Notice
+## Important Notice
 
 Copyright &#169; Julian Joaquin 2025
 
 Documentation and media are licensed under CC BY-SA 4.0
 
 Hardware source material licensed under CERN-OHL-W version 2
+
+UBCO is a registered trademark of the University of British Columbia. For guidelines on the permitted uses of UBC trademarks, please see http://universitycounsel.ubc.ca/university-trade-marks/.
