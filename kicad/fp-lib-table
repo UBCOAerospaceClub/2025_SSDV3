@@ -4,4 +4,6 @@
   (lib (name "Package_SON_JJ")(type "KiCad")(uri "${KIPRJMOD}/lib/Julian_Footprints/Package_SON_JJ.pretty")(options "")(descr "Julian's SON footprints"))
   (lib (name "Package_QFN_JJ")(type "KiCad")(uri "${KIPRJMOD}/lib/Julian_Footprints/Package_QFN_JJ.pretty")(options "")(descr "Julian's QFN footprints"))
   (lib (name "ul_LM5146RGYR")(type "KiCad")(uri "${KIPRJMOD}/lib/UltraLibrarian/ul_LM5146RGYR/KiCADv6/footprints.pretty")(options "")(descr "UltraLibrarian footprint for the LM5146"))
+  (lib (name "sm_XT30PW-M")(type "KiCad")(uri "${KIPRJMOD}/lib/SnapMagic/sm_XT30PW-M")(options "")(descr ""))
+  (lib (name "Heatsink_JJ")(type "KiCad")(uri "${KIPRJMOD}/lib/Julian_Footprints/Heatsink_JJ.pretty")(options "")(descr ""))
 )

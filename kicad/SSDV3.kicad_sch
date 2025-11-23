@@ -2113,7 +2113,7 @@
 				)
 				(uuid "9cf28da1-2c0f-4986-9c43-76e47fe7a423")
 			)
-			(table_cell "Prototype design featuring reverse polarity protection in exchange for a smaller TVS diode on the input. Smaller, active-production PQFN-8 FETs used in place of SO-8 FETs. Used for preliminary integration testing and validation."
+			(table_cell "Prototype design featuring reverse polarity protection in exchange for a smaller TVS diode on the input. Smaller, active-production 3x3mm DFN-8 FETs used in place of 5x6mm DFN-8 FETs. Used for preliminary integration testing and validation."
 				(exclude_from_sim no)
 				(at 66.04 77.47 0)
 				(size 80.01 10.16)
@@ -2241,115 +2241,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 36.83 123.19 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "030c582a-af65-4832-af30-5ca0465eac33")
-		(property "Reference" "H1"
-			(at 39.37 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 39.37 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 36.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 36.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ESR" ""
-			(at 36.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 36.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 36.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 36.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 36.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
-					(reference "H1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2805,344 +2696,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 36.83 128.27 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c3f2fc8-90cb-43bf-b2b0-aeaefcb29fa9")
-		(property "Reference" "H2"
-			(at 39.37 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 39.37 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 36.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 36.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ESR" ""
-			(at 36.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 36.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 36.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 36.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 36.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "2025_SSDP3A2"
-				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 36.83 138.43 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "487c5f34-71d5-442d-be3f-40ccf3fc2bde")
-		(property "Reference" "H4"
-			(at 39.37 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 39.37 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 36.83 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 36.83 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ESR" ""
-			(at 36.83 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 36.83 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 36.83 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 36.83 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 36.83 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "2025_SSDP3A2"
-				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 36.83 133.35 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58c79690-4eba-4e17-b753-c919a618142c")
-		(property "Reference" "H3"
-			(at 39.37 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 39.37 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 36.83 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 36.83 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ESR" ""
-			(at 36.83 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 36.83 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 36.83 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 36.83 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 36.83 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "2025_SSDP3A2"
-				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:Heatsink")
-		(at 76.2 144.78 0)
+		(at 38.1 127 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59f80b93-38aa-4d36-b4db-deb35c3a5329")
 		(property "Reference" "HS1"
-			(at 80.01 141.605 0)
+			(at 41.91 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3150,8 +2714,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "567-45AB"
-			(at 80.01 144.145 0)
+		(property "Value" "241802B92200G"
+			(at 41.91 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,8 +2723,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 76.5048 144.78 0)
+		(property "Footprint" "Heatsink_JJ:24180xB9x200G"
+			(at 38.4048 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3169,7 +2733,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.5048 144.78 0)
+			(at 38.4048 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,8 +2741,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "567-45AB"
-			(at 76.2 144.78 0)
+		(property "Description" "241802B92200G"
+			(at 38.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3187,7 +2751,7 @@
 			)
 		)
 		(property "LCSC ALT1" ""
-			(at 76.2 144.78 0)
+			(at 38.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3196,7 +2760,7 @@
 			)
 		)
 		(property "PART ALT1" ""
-			(at 76.2 144.78 0)
+			(at 38.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3205,7 +2769,7 @@
 			)
 		)
 		(property "ESR" ""
-			(at 76.2 144.78 0)
+			(at 38.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3214,7 +2778,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 76.2 144.78 0)
+			(at 38.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,7 +2787,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 76.2 144.78 0)
+			(at 38.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,7 +2796,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 76.2 144.78 0)
+			(at 38.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3241,7 +2805,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 76.2 144.78 0)
+			(at 38.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3249,8 +2813,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Wakefield-Vette"
-			(at 76.2 144.78 0)
+		(property "Manufacturer" "Aavid"
+			(at 38.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)

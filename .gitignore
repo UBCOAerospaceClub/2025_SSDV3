@@ -1,4 +1,4 @@
-2025_SSDP3A2-backups/
+kicad/SSDV3-backups/
 production/
 
 # Kicad specific config files
@@ -9,6 +9,11 @@ fp-info-cache
 *.bak
 *.zip
 
+# Kicad temporary files
+"#auto_saved_files#"
+~**.kicad_pcb.lck
+~**.kicad_sch.lck
+
 # ltspice output files
 *.log
 *.raw
@@ -17,3 +22,4 @@ fp-info-cache
 # license-restricted files
 **/lib/SnapMagic/**
 **/lib/UltraLibrarian/**
+**/lib/SamacSys/**
