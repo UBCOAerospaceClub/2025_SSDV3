@@ -5184,7 +5184,7 @@
 			(at 0 -3.8 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4cd4792c-4765-450d-a924-e399b4e5516d")
+			(uuid "d3c02de1-e005-454b-b0f8-5d60dd1fcfc4")
 			(effects
 				(font
 					(size 1 1)
@@ -5195,7 +5195,7 @@
 		(property "Value" "SolderPad"
 			(at 0 -7.25 180)
 			(layer "F.Fab")
-			(uuid "bc9f025a-93c7-4b12-9d83-e89b651b732e")
+			(uuid "e217d132-bb75-4130-a7b6-75281a7997ef")
 			(effects
 				(font
 					(size 1 1)
@@ -5207,7 +5207,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "937e8521-ecc7-48bc-8c88-6d78a605b5c2")
+			(uuid "b0cbbb2c-34c2-4533-9ed6-26857be79c99")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,7 +5219,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9220e30c-2d13-4834-a43f-a4f798fbe74c")
+			(uuid "82f68c2e-a55f-4881-baf6-37391cceafa9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5286,7 +5286,7 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net 1 "PGND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -5301,7 +5301,7 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net 1 "PGND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -5316,7 +5316,7 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net 1 "PGND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -5331,7 +5331,7 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net 1 "PGND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -5346,7 +5346,7 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net 1 "PGND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -5361,7 +5361,7 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net 1 "PGND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -5376,7 +5376,7 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net 1 "PGND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -5391,7 +5391,7 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net 1 "PGND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -5406,7 +5406,7 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net 1 "PGND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -5431,7 +5431,7 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net 1 "PGND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -5446,7 +5446,7 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net 1 "PGND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -5461,7 +5461,7 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net 1 "PGND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -5476,7 +5476,7 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net 1 "PGND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -5491,7 +5491,7 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net 1 "PGND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -5506,7 +5506,7 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net 1 "PGND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -5521,7 +5521,7 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net 1 "PGND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -5536,7 +5536,7 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net 1 "PGND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -5551,7 +5551,7 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
-			(zone_layer_connections "In1.Cu" "In2.Cu")
+			(zone_layer_connections)
 			(net 1 "PGND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -7896,7 +7896,7 @@
 			(at 0 -3.8 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d858b01c-c904-40bc-a64a-b3aa867c01d6")
+			(uuid "dc2c4411-f6cb-4ee3-833f-a9c23fa47bf6")
 			(effects
 				(font
 					(size 1 1)
@@ -7907,7 +7907,7 @@
 		(property "Value" "SolderPad"
 			(at 0 -7.25 180)
 			(layer "F.Fab")
-			(uuid "73206720-b757-4956-9da7-5440e166b0ee")
+			(uuid "289e0654-c543-43ba-9408-8bc42e6bdc42")
 			(effects
 				(font
 					(size 1 1)
@@ -7919,7 +7919,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c25fb1f6-a529-4dd7-befe-e4782409525d")
+			(uuid "b4ba37b0-dd0a-468c-af2e-ba38fa59a384")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7931,7 +7931,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cefc8111-656d-460f-963e-3dc4f726f4c9")
+			(uuid "785f04da-4c52-4d9c-8bae-1ef3e0f32b3e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15177,7 +15177,7 @@
 			(at -2.75 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "2f0f3614-7270-4e5c-aa85-4c83029e6244")
+			(uuid "7d83d481-260c-42f0-b47c-4ba35812073d")
 			(effects
 				(font
 					(size 1 1)
@@ -15188,7 +15188,7 @@
 		(property "Value" "GREEN"
 			(at 0 1.65 0)
 			(layer "F.Fab")
-			(uuid "599eaeb4-5a50-4b09-845c-17a29fd784b2")
+			(uuid "0e8a9616-d023-4a96-afa4-049e5645a441")
 			(effects
 				(font
 					(size 1 1)
@@ -15201,7 +15201,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "081560d0-e94f-48b6-bdae-f84d0f7135e4")
+			(uuid "e7b13102-95c9-48ed-9fa0-8df0b5ba30a2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15214,7 +15214,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b6e255b5-fd06-4e82-967b-d4aae1d19f37")
+			(uuid "b3e544b4-823b-40d9-9dac-8aecd3fa5c60")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20364,7 +20364,7 @@
 			(at 3.25 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "c48acbd9-11e5-4a11-846e-9ec11be38058")
+			(uuid "066e1609-a716-4ae3-93e8-6420db1b3c3b")
 			(effects
 				(font
 					(size 1 1)
@@ -20375,7 +20375,7 @@
 		(property "Value" "1k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
-			(uuid "19911357-579a-4879-b9fc-81292a5fbead")
+			(uuid "a4d8001b-4a06-4805-8dd0-1c25bdceb4ab")
 			(effects
 				(font
 					(size 1 1)
@@ -20388,7 +20388,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e40a8aa-aa88-48c2-9eda-5dc8918a8524")
+			(uuid "c7125a68-81d8-4e18-a505-bc77b989b14f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20401,7 +20401,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b71a7bd9-f09b-4f82-a454-1f99e58332a3")
+			(uuid "ee17f42c-cb9c-4be1-b302-16f202d930c6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24111,7 +24111,7 @@
 			(at 0 10 0)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "cfcb618f-1002-4d53-832e-36ede3e1c3f8")
+			(uuid "f80e71d9-0895-4d50-be81-257db5ef0dfb")
 			(effects
 				(font
 					(size 1 1)
@@ -24124,7 +24124,7 @@
 			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "211d7518-e41c-41c1-af52-77404e03453a")
+			(uuid "a614446e-89e1-4ad7-859a-c88b9dd5efb8")
 			(effects
 				(font
 					(size 1 1)
@@ -24138,7 +24138,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "652bdd8d-4f27-451b-b0c8-145989dc08e0")
+			(uuid "b0541e9f-18a5-4a81-8915-24cb2a134947")
 			(effects
 				(font
 					(size 1 1)
@@ -24152,7 +24152,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6e1029d1-bbda-4817-ba20-5aa185807469")
+			(uuid "0b5d08f1-37e7-4bb9-be5f-aa31f5419f0a")
 			(effects
 				(font
 					(size 1 1)
@@ -25702,8 +25702,8 @@
 		(uuid "d0e2aff4-da00-4af3-b1f6-0699d8de53b1")
 	)
 	(gr_rect
-		(start 120.45 100)
-		(end 177.85 122.8)
+		(start 120.6 103)
+		(end 178 125.8)
 		(stroke
 			(width 0.15)
 			(type solid)
