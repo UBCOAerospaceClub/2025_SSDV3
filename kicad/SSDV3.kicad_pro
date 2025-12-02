@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.0,
-          "width": 1.25
+          "height": 1.4,
+          "width": 1.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,35 +60,27 @@
       ],
       "drc_exclusions": [
         [
+          "clearance|153150000|117200000|676d1f71-c10c-4fb4-81b1-eb799163cecf|c72f0507-33a8-4b42-9b6c-e30716520629",
+          ""
+        ],
+        [
+          "clearance|153150000|118350000|05a3d547-f399-499b-a81e-1c772a026bb8|336ab87a-5b61-46dd-94ed-b8e003151fe8",
+          ""
+        ],
+        [
+          "clearance|153150000|118950001|05a3d547-f399-499b-a81e-1c772a026bb8|4eb3cef8-aa12-4076-a196-e9e68429d163",
+          ""
+        ],
+        [
+          "clearance|153649999|118350000|336ab87a-5b61-46dd-94ed-b8e003151fe8|60a8b31d-f89b-41d5-b979-7a89b7dcc716",
+          ""
+        ],
+        [
+          "clearance|153650000|119125000|4eb3cef8-aa12-4076-a196-e9e68429d163|4fcd2038-45bd-4bda-9c01-51d2cfe440ef",
+          ""
+        ],
+        [
           "clearance|162125000|115700000|321cd15e-32a9-4152-bd83-ebf435396c96|5007fee6-4788-418c-aa3d-c631c0ae6008",
-          ""
-        ],
-        [
-          "clearance|164400000|116350000|81b1bf68-4a4e-4c34-a81e-34ccbbe3c06f|2622ec98-5391-4c91-84aa-db81409891c2",
-          ""
-        ],
-        [
-          "clearance|164400000|116350000|81b1bf68-4a4e-4c34-a81e-34ccbbe3c06f|6dd6a150-1826-4638-b655-bd085922e3bd",
-          "HV to HV clearance exception"
-        ],
-        [
-          "clearance|164400000|117300000|516fceef-cdc4-485a-a432-431e98ec35bd|81b1bf68-4a4e-4c34-a81e-34ccbbe3c06f",
-          "HV to HV clearance exception"
-        ],
-        [
-          "clearance|164762500|115747500|15772291-d398-4199-9342-67a5ee168221|2622ec98-5391-4c91-84aa-db81409891c2",
-          ""
-        ],
-        [
-          "clearance|168250000|112895000|b1e3fa16-8ddb-47b7-bac3-dc22c834ffd1|007b5647-6527-40d2-8aa7-7189536227cf",
-          ""
-        ],
-        [
-          "clearance|168250000|113305000|7dc7969e-17b5-4f56-b13f-18a5fedfa738|b1e3fa16-8ddb-47b7-bac3-dc22c834ffd1",
-          ""
-        ],
-        [
-          "clearance|168500000|112584000|56c1e1bd-86fb-403a-9dc0-ffcddc0ffef8|7dc7969e-17b5-4f56-b13f-18a5fedfa738",
           ""
         ],
         [
@@ -584,7 +576,7 @@
       {
         "clearance": 0.5,
         "line_style": 0,
-        "name": "HV Power",
+        "name": "HV_Power",
         "pcb_color": "rgb(142, 7, 0)",
         "priority": 1,
         "schematic_color": "rgb(0, 132, 0)",
@@ -614,11 +606,11 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "HV Power",
+        "netclass": "HV_Power",
         "pattern": "VBAT"
       },
       {
-        "netclass": "HV Power",
+        "netclass": "HV_Power",
         "pattern": "VIN"
       },
       {
@@ -646,16 +638,24 @@
         "pattern": "/HO"
       },
       {
-        "netclass": "HV Power",
+        "netclass": "HV_Power",
         "pattern": "*U2_VIN"
       },
       {
-        "netclass": "HV Power",
+        "netclass": "HV_Power",
         "pattern": "*U1_GATE"
       },
       {
-        "netclass": "HV Power",
+        "netclass": "HV_Power",
         "pattern": "*U1_VS"
+      },
+      {
+        "netclass": "HV_Power",
+        "pattern": "*SW"
+      },
+      {
+        "netclass": "HV_Power",
+        "pattern": "*HO"
       }
     ]
   },

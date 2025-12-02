@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Super Step Down V3")
-		(date "2025-11-08")
+		(date "2025-12-02")
 		(rev "D")
 		(company "Author: Julian Joaquin")
 		(comment 1 "Licensed under CERN-OHL-W version 2")

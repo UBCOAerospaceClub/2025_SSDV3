@@ -1,0 +1,174 @@
+(footprint "24180xB9x200G"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1/8 Brick DC/DC converter heatsink")
+	(property "Reference" "REF**"
+		(at 0 -10 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1e88c865-556c-4308-a30e-6481ff9f4fdb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "24180xB9x200G"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a412178b-6bb0-4d46-b177-b8eccd5b5336")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6520448a-f4f3-496c-b516-0d8dd83ae230")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d9d420d-9b09-437d-ba06-0d027f37a990")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -25 -11.4)
+		(end 25 -11.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9438c2b7-b727-422e-a2a8-7e7c02fe0096")
+	)
+	(fp_line
+		(start -25 11.4)
+		(end 25 11.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f51b5762-01f2-4e4c-bd8a-17762d7ded05")
+	)
+	(fp_circle
+		(center -25.4 -7.6)
+		(end -22.9 -7.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "70059dba-f03a-491c-8654-0b40b7603eed")
+	)
+	(fp_circle
+		(center -25.4 7.6)
+		(end -22.9 7.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "4567983d-5a8a-4972-97cc-c517a1267572")
+	)
+	(fp_circle
+		(center 25.4 -7.6)
+		(end 27.9 -7.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "2b505626-8a66-4382-9b35-e6f3a77900a2")
+	)
+	(fp_circle
+		(center 25.4 7.6)
+		(end 27.9 7.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "b3f7607e-d0c6-446f-a7a0-026b5b09df21")
+	)
+	(fp_rect
+		(start -29.05 -11.55)
+		(end 29.05 11.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e66756c9-55ac-415c-b638-dd1aabc40b09")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4883898c-13b2-400b-9bf6-5fdf3a58ba08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -25.4 -7.6)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Mask")
+		(uuid "47abcaf5-6abe-4c3c-b95a-c8c23537ec2b")
+	)
+	(pad "" np_thru_hole circle
+		(at -25.4 7.6)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Mask")
+		(uuid "1904a9b6-caef-4297-8cae-e5bd6266a978")
+	)
+	(pad "" np_thru_hole circle
+		(at 25.4 -7.6)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Mask")
+		(uuid "22af66cc-ca3e-458d-9276-04848cd2ad4f")
+	)
+	(pad "" np_thru_hole circle
+		(at 25.4 7.6)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Mask")
+		(uuid "37fcf08d-4036-4c45-b2bd-f6c414799559")
+	)
+	(embedded_fonts no)
+)
