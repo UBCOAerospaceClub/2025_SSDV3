@@ -80,10 +80,6 @@
           ""
         ],
         [
-          "clearance|162125000|115700000|321cd15e-32a9-4152-bd83-ebf435396c96|5007fee6-4788-418c-aa3d-c631c0ae6008",
-          ""
-        ],
-        [
           "solder_mask_bridge|154650000|122125000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|3557dcfa-a4d7-4478-9c13-095868b43b08",
           ""
         ],
@@ -639,15 +635,7 @@
       },
       {
         "netclass": "HV_Power",
-        "pattern": "*U2_VIN"
-      },
-      {
-        "netclass": "HV_Power",
-        "pattern": "*U1_GATE"
-      },
-      {
-        "netclass": "HV_Power",
-        "pattern": "*U1_VS"
+        "pattern": "*U1_VIN"
       },
       {
         "netclass": "HV_Power",
@@ -910,10 +898,6 @@
     [
       "ea689c3b-fea3-4fc0-9d65-1fb672b240d8",
       "Root"
-    ],
-    [
-      "2c5420f9-cdfd-4ae0-879c-cf9dbf3cb514",
-      "rpp"
     ],
     [
       "cb63889c-2581-4b1d-874e-57ddb0e169a2",

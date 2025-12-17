@@ -2178,7 +2178,7 @@
 			)
 		)
 	)
-	(global_label "U2_EN"
+	(global_label "U1_EN"
 		(shape output)
 		(at 242.57 100.33 0)
 		(fields_autoplaced yes)
@@ -2359,7 +2359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a74314a-f4b3-4619-a3ca-e39cbe7d6438")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR018"
 			(at 207.01 132.08 0)
 			(effects
 				(font
@@ -2409,7 +2409,7 @@
 		(instances
 			(project "2025_SSDP3A2"
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
-					(reference "#PWR030")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2552,7 +2552,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35c10f4c-4c10-46e1-8ff1-bf8eb89d5236")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR020"
 			(at 234.95 121.92 0)
 			(effects
 				(font
@@ -2602,7 +2602,7 @@
 		(instances
 			(project "2025_SSDP3A2"
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
-					(reference "#PWR027")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -2617,7 +2617,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a319d03-e350-4591-914d-e8f3ec607e5b")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR019"
 			(at 215.9 154.94 0)
 			(effects
 				(font
@@ -2667,7 +2667,7 @@
 		(instances
 			(project "2025_SSDP3A2"
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
-					(reference "#PWR025")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2683,7 +2683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73b09c6d-a99a-43fe-8621-4ecb92ec63a5")
-		(property "Reference" "J8"
+		(property "Reference" "J4"
 			(at 236.22 132.08 0)
 			(effects
 				(font
@@ -2749,7 +2749,7 @@
 		(instances
 			(project ""
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
-					(reference "J8")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2891,7 +2891,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3a0380a-f5be-483f-ae7d-724fc5f2e9b1")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 237.49 104.394 90)
 			(effects
 				(font
@@ -3009,7 +3009,7 @@
 		(instances
 			(project ""
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3024,7 +3024,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3cf5afa-38fc-4e7d-9cde-5b695ff02eff")
-		(property "Reference" "D6"
+		(property "Reference" "D3"
 			(at 210.058 138.684 0)
 			(effects
 				(font
@@ -3145,7 +3145,7 @@
 		(instances
 			(project ""
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
-					(reference "D6")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3221,8 +3221,8 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f259a804-5063-4725-a905-bef0844f1a99")
 		(property "Reference" "HS1"
@@ -3361,7 +3361,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f92495bb-3798-4ee1-aaf1-7dc59a592998")
-		(property "Reference" "J7"
+		(property "Reference" "J3"
 			(at 215.138 100.33 0)
 			(effects
 				(font
@@ -3424,50 +3424,8 @@
 		(instances
 			(project ""
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
-					(reference "J7")
+					(reference "J3")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 207.01 26.67)
-		(size 38.1 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "2c5420f9-cdfd-4ae0-879c-cf9dbf3cb514")
-		(property "Sheetname" "rpp"
-			(at 207.01 25.9584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "rpp.kicad_sch"
-			(at 207.01 52.6546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "SSDV3"
-				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
-					(page "2")
 				)
 			)
 		)
