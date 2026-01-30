@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "LM5146")(type "KiCad")(uri "${KIPRJMOD}/lib/UltraLibrarian/ul_LM5146RGYR/KiCADv6/2025-08-21_15-55-15.kicad_sym")(options "")(descr ""))
   (lib (name "Julian_Symbols")(type "KiCad")(uri "${KIPRJMOD}/lib/Julian_Symbols/Julian_Symbols.kicad_sym")(options "")(descr "Julian's project-specific symbols for the SSDV3"))
+  (lib (name "2025-08-21_15-56-04")(type "KiCad")(uri "${KIPRJMOD}/lib/UltraLibrarian/ul_LM5148RGYR/KiCADv6/2025-08-21_15-56-04.kicad_sym")(options "")(descr ""))
 )
