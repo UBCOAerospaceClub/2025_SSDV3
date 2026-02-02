@@ -722,105 +722,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:Heatsink"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "HS"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Heatsink"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.3048 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0.3048 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Heatsink"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "thermal heat temperature"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Heatsink_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Heatsink_0_1"
-				(polyline
-					(pts
-						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
-						(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
-						(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
-						(xy -0.9652 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -1526,18 +1427,6 @@
 		(uuid "038afc7e-a549-4692-8df0-30dd239c32b5")
 	)
 	(junction
-		(at 226.06 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f0bc9d2-aa94-4ee8-9b1d-ed0d97d25773")
-	)
-	(junction
-		(at 223.52 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ee8993e-a52e-4354-a641-e9b1a4f90616")
-	)
-	(junction
 		(at 218.44 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1560,6 +1449,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d853a6b2-9dde-4380-8033-93f5738a09b6")
+	)
+	(no_connect
+		(at 218.44 107.95)
+		(uuid "135302b9-bcdf-40ff-96eb-b2a2ec592569")
+	)
+	(no_connect
+		(at 233.68 140.97)
+		(uuid "3986e2f5-d186-41fd-bf44-f63103da0240")
 	)
 	(wire
 		(pts
@@ -1603,26 +1500,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 102.87) (xy 223.52 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28453cfa-cf09-43bb-8abd-bcdfd0e9cb7e")
-	)
-	(wire
-		(pts
-			(xy 233.68 140.97) (xy 233.68 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46f312fa-69cf-4735-8d5f-6fac42a686ca")
-	)
-	(wire
-		(pts
 			(xy 223.52 147.32) (xy 223.52 135.89)
 		)
 		(stroke
@@ -1663,16 +1540,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 113.03) (xy 226.06 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "666a9a39-f6ef-4198-84d7-c68a01bfbb5e")
-	)
-	(wire
-		(pts
 			(xy 215.9 147.32) (xy 223.52 147.32)
 		)
 		(stroke
@@ -1690,6 +1557,16 @@
 			(type default)
 		)
 		(uuid "94637f44-cbe4-40c6-95a2-38d1775de648")
+	)
+	(wire
+		(pts
+			(xy 226.06 113.03) (xy 226.06 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9649b420-ca04-4483-aad7-09e51b91a855")
 	)
 	(wire
 		(pts
@@ -1713,6 +1590,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 100.33) (xy 234.95 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a19439d2-15ba-4a18-8d72-9548b432a4b4")
+	)
+	(wire
+		(pts
 			(xy 223.52 135.89) (xy 228.6 135.89)
 		)
 		(stroke
@@ -1720,16 +1607,6 @@
 			(type default)
 		)
 		(uuid "ad5b6ec7-3261-4141-b7ec-8f0efca4d43a")
-	)
-	(wire
-		(pts
-			(xy 226.06 102.87) (xy 226.06 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b457c014-2e0b-416b-a9e7-3937df8d6349")
 	)
 	(wire
 		(pts
@@ -1753,16 +1630,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 147.32) (xy 223.52 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c798f65a-4065-499b-aeb2-091a55c64bbe")
-	)
-	(wire
-		(pts
 			(xy 207.01 130.81) (xy 207.01 128.27)
 		)
 		(stroke
@@ -1773,13 +1640,13 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 107.95) (xy 218.44 113.03)
+			(xy 223.52 102.87) (xy 226.06 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dad3cdb3-31a5-4fd9-bb6b-d5a0c70185f5")
+		(uuid "e8778083-717a-49a0-bae0-bbc1b9cd7b4d")
 	)
 	(wire
 		(pts
@@ -1790,16 +1657,6 @@
 			(type default)
 		)
 		(uuid "ec9c3f39-738c-4773-8ab1-c709033cf29c")
-	)
-	(wire
-		(pts
-			(xy 234.95 100.33) (xy 223.52 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fffeeaa4-4539-4329-9725-274f0f9f8045")
 	)
 	(table
 		(column_count 4)
@@ -2470,7 +2327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rds(on)" ""
+		(property "Rdson" ""
 			(at 74.93 165.1 0)
 			(effects
 				(font
@@ -2489,17 +2346,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
-		(at 233.68 133.35 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 36.83 165.1 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "078582ee-788c-4b74-bde1-ae431d40e6c3")
-		(property "Reference" "J4"
-			(at 236.22 132.4356 0)
+		(uuid "18701c6e-5e56-49b5-8e20-490159e2002c")
+		(property "Reference" "H6"
+			(at 39.37 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,8 +2364,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_MountingPin"
-			(at 236.22 134.9756 0)
+		(property "Value" "MountingHole"
+			(at 39.37 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,8 +2373,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal"
-			(at 233.68 133.35 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 36.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2526,7 +2383,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 133.35 0)
+			(at 36.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,8 +2391,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 233.68 133.35 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 36.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,8 +2400,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C514175"
-			(at 233.68 133.35 0)
+		(property "LCSC ALT1" ""
+			(at 36.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2552,8 +2409,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "JST"
-			(at 233.68 133.35 0)
+		(property "PART ALT1" ""
+			(at 36.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,8 +2418,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "SM03B-GHS-TB(LF)(SN)"
-			(at 233.68 133.35 0)
+		(property "ESR" ""
+			(at 36.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2570,8 +2427,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Type" "Extended"
-			(at 233.68 133.35 0)
+		(property "Power" ""
+			(at 36.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,8 +2436,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rds(on)" ""
-			(at 233.68 133.35 0)
+		(property "STANDARD" ""
+			(at 36.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,22 +2445,37 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "a6c3aaf7-d600-45f4-9225-9acd38cb7c80")
+		(property "Voltage" ""
+			(at 36.83 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "989fefcd-8b74-403b-83a2-0f8965422d07")
+		(property "Part Number" ""
+			(at 36.83 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "MP"
-			(uuid "1d194060-0a18-47fe-a927-e2773f854e1d")
-		)
-		(pin "1"
-			(uuid "2275220c-5559-45ad-b82e-5a5a7b89a6ab")
+		(property "Rdson" ""
+			(at 36.83 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(instances
-			(project ""
+			(project "SSDV3"
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
-					(reference "J4")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -2793,7 +2665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rds(on)" ""
+		(property "Rdson" ""
 			(at 74.93 160.02 0)
 			(effects
 				(font
@@ -2806,6 +2678,82 @@
 			(project "2025_SSDP3A1"
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
+		(at 233.68 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2920d78c-f68a-4e90-8491-42e59c3f2646")
+		(property "Reference" "J4"
+			(at 236.22 132.4356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST_GH_SM03B-GHS-TB"
+			(at 236.22 134.9756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal"
+			(at 233.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 233.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84f207e4-136c-4a71-8c0f-0fc5519bd64e")
+		)
+		(pin "MP"
+			(uuid "c7912323-ebe8-4de3-8236-3beb5810e0fc")
+		)
+		(pin "1"
+			(uuid "075651ba-a993-4ed4-968e-0a43d8630016")
+		)
+		(pin "3"
+			(uuid "dd53b92f-4ec1-482e-9721-b6b019dae214")
+		)
+		(instances
+			(project ""
+				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2943,17 +2891,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
-		(at 218.44 100.33 0)
-		(mirror y)
+		(lib_id "Mechanical:MountingHole")
+		(at 36.83 154.94 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "52888d82-17f8-4fc1-b7da-582b3c4e2b5d")
-		(property "Reference" "J3"
-			(at 215.9 100.6856 0)
+		(fields_autoplaced yes)
+		(uuid "4448d2a4-0f95-4b7e-acf4-f839e973edf9")
+		(property "Reference" "H4"
+			(at 39.37 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2961,8 +2909,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_MountingPin"
-			(at 215.9 103.2256 0)
+		(property "Value" "MountingHole"
+			(at 39.37 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2970,8 +2918,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal"
-			(at 218.44 100.33 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 36.83 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2980,7 +2928,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 100.33 0)
+			(at 36.83 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2988,8 +2936,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 218.44 100.33 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 36.83 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2997,8 +2945,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C189893"
-			(at 218.44 100.33 0)
+		(property "LCSC ALT1" ""
+			(at 36.83 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3006,8 +2954,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "JST"
-			(at 218.44 100.33 0)
+		(property "PART ALT1" ""
+			(at 36.83 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3015,8 +2963,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "SM02B-GHS-TB(LF)(SN)"
-			(at 218.44 100.33 0)
+		(property "ESR" ""
+			(at 36.83 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,8 +2972,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Type" "Extended"
-			(at 218.44 100.33 0)
+		(property "Power" ""
+			(at 36.83 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,8 +2981,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rds(on)" ""
-			(at 218.44 100.33 0)
+		(property "STANDARD" ""
+			(at 36.83 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3042,19 +2990,309 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "5d8612f0-e052-4434-b2fb-c20a00fbd1dd")
+		(property "Voltage" ""
+			(at 36.83 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "MP"
-			(uuid "9775848d-9e8b-4a8f-82bd-cdca86e25705")
+		(property "Part Number" ""
+			(at 36.83 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "622baa5d-7630-42ac-9e3f-017fd8c95bd6")
+		(property "Rdson" ""
+			(at 36.83 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(instances
-			(project ""
+			(project "SSDV3"
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
-					(reference "J3")
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 36.83 170.18 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62986e07-2eb3-4af8-927e-a0506294a39e")
+		(property "Reference" "H7"
+			(at 39.37 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 39.37 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 36.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 36.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC ALT1" ""
+			(at 36.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART ALT1" ""
+			(at 36.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESR" ""
+			(at 36.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 36.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 36.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 36.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 36.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rdson" ""
+			(at 36.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "SSDV3"
+				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 36.83 160.02 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74d72dec-4aa8-4918-9321-9170fa3f8283")
+		(property "Reference" "H5"
+			(at 39.37 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 39.37 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC ALT1" ""
+			(at 36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART ALT1" ""
+			(at 36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESR" ""
+			(at 36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rdson" ""
+			(at 36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "SSDV3"
+				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -3178,7 +3416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rds(on)" ""
+		(property "Rdson" ""
 			(at 74.93 154.94 0)
 			(effects
 				(font
@@ -3197,6 +3435,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
+		(at 218.44 100.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af511d02-fe41-40f5-9bc5-5951dd2550cb")
+		(property "Reference" "J3"
+			(at 215.392 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST_GH_SM02B-GHS-TB"
+			(at 215.392 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal"
+			(at 218.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 218.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa96f4ea-6628-41e4-9d29-df5aad0e0c63")
+		)
+		(pin "1"
+			(uuid "9f094766-efbf-4e7a-a016-54eece2bdeec")
+		)
+		(pin "MP"
+			(uuid "2ef0aa92-9789-494d-929b-f068c836e712")
+		)
+		(instances
+			(project ""
+				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_TVS")
 		(at 234.95 106.68 270)
 		(unit 1)
@@ -3205,7 +3516,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3a0380a-f5be-483f-ae7d-724fc5f2e9b1")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 237.49 104.394 90)
 			(effects
 				(font
@@ -3314,7 +3625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rds(on)" ""
+		(property "Rdson" ""
 			(at 234.95 106.68 90)
 			(effects
 				(font
@@ -3332,7 +3643,7 @@
 		(instances
 			(project ""
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -3347,7 +3658,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3cf5afa-38fc-4e7d-9cde-5b695ff02eff")
-		(property "Reference" "D3"
+		(property "Reference" "D6"
 			(at 210.058 138.684 0)
 			(effects
 				(font
@@ -3456,7 +3767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rds(on)" ""
+		(property "Rdson" ""
 			(at 215.9 140.97 0)
 			(effects
 				(font
@@ -3477,7 +3788,7 @@
 		(instances
 			(project ""
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
-					(reference "D3")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -3542,151 +3853,6 @@
 			(project ""
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
 					(reference "#SYM1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 35.56 156.21 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "f259a804-5063-4725-a905-bef0844f1a99")
-		(property "Reference" "HS1"
-			(at 39.37 153.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "241802B92200G"
-			(at 39.37 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Heatsink_JJ:24180xB9x200G"
-			(at 35.8648 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.8648 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "241802B92200G"
-			(at 35.56 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC ALT1" ""
-			(at 35.56 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART ALT1" ""
-			(at 35.56 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ESR" ""
-			(at 35.56 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 35.56 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 35.56 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 35.56 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 35.56 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Aavid"
-			(at 35.56 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rds(on)" ""
-			(at 35.56 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "SSDV3"
-				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
-					(reference "HS1")
 					(unit 1)
 				)
 			)

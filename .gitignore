@@ -1,5 +1,6 @@
-*backups/
-production/
+**backups/
+**production/
+**gerbers/
 
 # Kicad specific config files
 **.kicad_prl
@@ -15,5 +16,8 @@ fp-info-cache
 *.net
 
 # license-restricted files
-**/lib/SnapMagic/**
-**/lib/UltraLibrarian/**
+**lib/SnapMagic/**
+**lib/UltraLibrarian/**
+**lib/Nidec/**
+**lib/SamacSys/**
+**reference/**

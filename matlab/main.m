@@ -37,17 +37,17 @@ Io = 8;
 % Capacitors
 caps = struct;
 
-caps(1).C = 72e-6;
-caps(1).R = 0.85e-3;
+caps(1).C = 75.0e-6;
+caps(1).R = 0.6e-3;
 
 caps(2).C = 100e-6;
-caps(2).R = 24e-3;
+caps(2).R = 18e-3;
 
-L = 6.8e-6;
-Rdcr = 20e-3;
+L = 4.7e-6;
+Rdcr = 15.5e-3;
 
-Rdson1 = 12.1e-3;
-Rdson2 = 9.5e-3;
+Rdson1 = 14.6e-3;
+Rdson2 = 14.6e-3;
 D = Vo / Vi;
 Rd = Rdcr + Rdson1*D + Rdson2*(1-D);
 
@@ -57,8 +57,8 @@ Gv(1) = control_output(Vi,Vo,Io,caps,L,Rd) / (Vi / kff);
 
 % Variation 2
 Vi = 50;
-Vo = 12;
-caps(1).C = 35e-6;
+Vo = 12.05;
+caps(1).C = 36.8e-6;
 
 D = Vo / Vi;
 Rd = Rdcr + Rdson1*D + Rdson2*(1-D);
@@ -68,12 +68,12 @@ Gv(2) = control_output(Vi,Vo,Io,caps,L,Rd) / (Vi / kff);
 %% Compensation
 
 Rfb1 = 20e3;
-Rc2 = 1500;
+Rc2 = 1000;
 Cc3 = 2200e-12;
 
-Rc1 = 10e3;
-Cc1 = 1000e-12;
-Cc2 = 10e-12;
+Rc1 = 6.8e3;
+Cc1 = 2200e-12;
+Cc2 = 100e-12;
 
 Gc = compensator(Rfb1, Rc2, Cc3, Rc1, Cc1, Cc2);
 
