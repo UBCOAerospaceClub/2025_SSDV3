@@ -58,7 +58,48 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|152399999|114950000|676d1f71-c10c-4fb4-81b1-eb799163cecf|c72f0507-33a8-4b42-9b6c-e30716520629",
+          ""
+        ],
+        [
+          "clearance|152399999|116100000|05a3d547-f399-499b-a81e-1c772a026bb8|336ab87a-5b61-46dd-94ed-b8e003151fe8",
+          ""
+        ],
+        [
+          "clearance|152899998|116100000|336ab87a-5b61-46dd-94ed-b8e003151fe8|60a8b31d-f89b-41d5-b979-7a89b7dcc716",
+          ""
+        ],
+        [
+          "clearance|152899999|116425000|4eb3cef8-aa12-4076-a196-e9e68429d163|60a8b31d-f89b-41d5-b979-7a89b7dcc716",
+          ""
+        ],
+        [
+          "clearance|152899999|116875000|4eb3cef8-aa12-4076-a196-e9e68429d163|4fcd2038-45bd-4bda-9c01-51d2cfe440ef",
+          ""
+        ],
+        [
+          "clearance|161374999|113450000|321cd15e-32a9-4152-bd83-ebf435396c96|5007fee6-4788-418c-aa3d-c631c0ae6008",
+          ""
+        ],
+        [
+          "courtyards_overlap|154634999|125405000|7951b6bf-b424-4ad6-adda-1c84a1121d4b|9ea31bf9-7193-4240-a6ed-ce9334942967",
+          ""
+        ],
+        [
+          "courtyards_overlap|157634999|125405000|9ea31bf9-7193-4240-a6ed-ce9334942967|f81be67a-dbdd-413f-8145-45ba5714e88c",
+          ""
+        ],
+        [
+          "solder_mask_bridge|153899999|119875000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|3557dcfa-a4d7-4478-9c13-095868b43b08",
+          ""
+        ],
+        [
+          "solder_mask_bridge|154024999|118875000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|2b64215b-036f-4654-915c-5cc2efd17b1f",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -541,7 +582,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.4,
+        "clearance": 0.5,
         "line_style": 0,
         "name": "HV_Power",
         "pcb_color": "rgb(142, 7, 0)",
@@ -606,7 +647,15 @@
       },
       {
         "netclass": "HV_Power",
-        "pattern": "*U1_VIN"
+        "pattern": "*U2_VIN"
+      },
+      {
+        "netclass": "HV_Power",
+        "pattern": "*U1_GATE"
+      },
+      {
+        "netclass": "HV_Power",
+        "pattern": "*U1_VS"
       },
       {
         "netclass": "HV_Power",
@@ -723,8 +772,8 @@
         },
         {
           "group_by": false,
-          "label": "Part Type",
-          "name": "Part Type",
+          "label": "JLCPCB Part Type",
+          "name": "JLCPCB Part Type",
           "show": true
         },
         {
@@ -869,6 +918,10 @@
     [
       "ea689c3b-fea3-4fc0-9d65-1fb672b240d8",
       "Root"
+    ],
+    [
+      "2c5420f9-cdfd-4ae0-879c-cf9dbf3cb514",
+      "rpp"
     ],
     [
       "cb63889c-2581-4b1d-874e-57ddb0e169a2",

@@ -1,8 +1,8 @@
-function Gc = compensator(Ri1, Ri2, Ci1, Rf1, Cf1, Cf2)
-% COMPENSATOR  Type III op amp compensator transfer function
+function Gc = comp_opamp3(Ri1, Ri2, Ci1, Rf1, Cf1, Cf2)
+% COMP_OPAMP3  Type III op amp compensator transfer function
 %
 %   Syntax
-%       Gc = COMPENSATOR(Ri1, Ri2, Ci1, Rf1, Cf1, Cf2)
+%       Gc = COMP_OPAMP3(Ri1, Ri2, Ci1, Rf1, Cf1, Cf2)
 %
 %   Input Arguments
 %       Ri1 - Input impedance voltage divider resistor, in Ohms

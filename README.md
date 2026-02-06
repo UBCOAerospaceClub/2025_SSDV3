@@ -4,7 +4,22 @@
 
 ![Top View](kicad/SSDV3_board_snazzy.png)
 
-The SSDV3 is an independently-made, non-isolated DC/DC converter designed for unmanned aerial systems (UAS). The module is intended for converting 50V battery input down to 5-12V output at a maximum load of 8A. It acts as a reliable battery-eliminator circuit (BEC) through effective regulation in the presence of voltage transients caused by high-power brushless motors.
+The SSDV3 is an independently-made, non-isolated DC/DC converter designed for unmanned aerial systems (UAS). The module is intended for converting 50V battery input down to 5-12V output at a maximum load of 8A. It acts as a reliable battery-eliminator circuit (BEC) through effective regulation in the presence of large line voltage and load current transients.
+
+## Comparison with Last Super Step Down
+
+This design is motivated by the challenges encountered by the [UBCO Aerospace Club](https://github.com/UBCOAerospaceClub) with their Jellyfish quadcopter when powering auxiliary electronics off the drone's main battery. Lessons were learned through a variety of integration failures, investigations, and validation testing, and these experiences informed the development of version 3 of the Super Step Down series.
+
+![Comparison](kicad/SSDV3_comparison_gimp.png)
+
+**Improvements from the previous version:**
+
+- Dramatically improved regulation during line and load transients
+- Considerable footprint area reduction by 16.5%
+- Configurable output voltages instead of a fixed 5V output
+- Added ESD protection on inputs
+- Features reverse polarity protection
+- Uses direct solder pads instead of terminal block for output connection
 
 ## Specifications
 
@@ -22,16 +37,12 @@ The SSDV3 is an independently-made, non-isolated DC/DC converter designed for un
     <td>5.1V, 7.4V, 9.6V, 12V</td>
   </tr>
   <tr>
-    <td>Thermal Max Output Current</td>
-    <td>5A</td>
-  </tr>
-  <tr>
-    <td>Designed Max Output Current</td>
+    <td>Max Output Current*</td>
     <td>8A</td>
   </tr>
   <tr>
-    <td>Lowest Typical Efficiency</td>
-    <td>89%</td>
+    <td>Typical Efficiency</td>
+    <td>88%</td>
   </tr>
   <tr>
     <td>Est. Voltage Overshoot</td>
@@ -40,25 +51,22 @@ The SSDV3 is an independently-made, non-isolated DC/DC converter designed for un
 </tbody>
 </table>
 
-*Specifications are from design, not tested.*
+### Performance Curves
 
-## Comparison with Last Super Step Down
+**Voltage ripple at 5.1V Output**
 
-This design is motivated by the challenges encountered by the [UBCO Aerospace Club](https://github.com/UBCOAerospaceClub) with their Jellyfish quadcopter when powering auxiliary electronics off the drone's main battery. Lessons were learned through a variety of integration failures, investigations, and validation testing, and these experiences informed the development of version 3 of the Super Step Down series.
+![Voltage ripple 5.1V](figures\ssdv32542c04_5v_ripple2.png)
 
-![Comparison](kicad/SSDV3_comparison_gimp.png)
+**Transient response of 5.1V 0-5A Output**
 
-**Improvements from the previous version:**
+![Transient response](figures\ssdv32542c04_5v_5_0a_trans.png)
 
-- Dramatically improved regulation during line transients
-- Considerable footprint area reduction by 16.5%
-- Configurable output voltages instead of a fixed 5V output
-- Added ESD protection on inputs
-- Reverse polarity protection for the majority of the circuit
-- Lower losses by using direct wire solder pads instead of terminal block
+**Efficiency Measurements**
+
+![Efficiency measurements](figures\efficiency_measurements_20260206.png)
 
 ## Copyright Notice
 
-Copyright &#169; Julian Joaquin 2025
+Copyright &#169; Julian Joaquin 2026
 
 Hardware Source Licensed under CERN-OHL-W version 2

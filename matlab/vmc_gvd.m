@@ -1,8 +1,8 @@
-function Gvd = control_output(Vi, Vo, Io, caps, L, Rd)
-% CONTROL_OUTPUT  Buck converter control-to-output voltage transfer function
+function Gvd = vmc_gvd(Vi, Vo, Io, caps, L, Rd)
+% VMC_GVD  VMC Buck converter control-to-output voltage transfer function
 %
 %   Syntax
-%       Gvd = CONTROL_OUTPUT(Vo, Io, caps, L, dcr)
+%       Gvd = VMC_GVD(Vi, Vo, Io, caps, L, dcr)
 %
 %   Input Arguments
 %       Vi - Input voltage in Volts
@@ -31,7 +31,7 @@ function Gvd = control_output(Vi, Vo, Io, caps, L, Rd)
 %       caps(1).R = 10e-3;  % Ohms
 %       L = 4.7e-6;         % Henries
 %       Rd = 10e-3;         % Ohms
-%       Gvd = v(Vi, Vo, Io, caps, L, dcr);
+%       Gvd = VMC_GVD(Vi, Vo, Io, caps, L, dcr);
 %
 %   See also
 %       <a href="matlab:web('https://www.edn.com/voltage-mode-control-and-compensation-intricacies-for-buck-regulators/')">EDN: Voltage-mode control and compensation</a>
