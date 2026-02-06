@@ -55,15 +55,15 @@ This design is motivated by the challenges encountered by the [UBCO Aerospace Cl
 
 **Voltage ripple at 5.1V Output**
 
-![Voltage ripple 5.1V](figures\ssdv32542c04_5v_ripple2.png)
+![Voltage ripple 5.1V](figures/ssdv32542c04_5v_ripple2.png)
 
 **Transient response of 5.1V 0-5A Output**
 
-![Transient response](figures\ssdv32542c04_5v_5_0a_trans.png)
+![Transient response](figures/ssdv32542c04_5v_5_0a_trans.png)
 
 **Efficiency Measurements**
 
-![Efficiency measurements](figures\efficiency_measurements_20260206.png)
+![Efficiency measurements](figures/efficiency_measurements_20260206.png)
 
 ## Copyright Notice
 
