@@ -308,7 +308,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U?"
-			(at 2.794 30.734 0)
+			(at 8.89 -28.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -317,7 +317,7 @@
 			)
 		)
 		(property "Value" "LM5146RGYR"
-			(at 2.794 28.194 0)
+			(at 8.89 -30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -481,8 +481,8 @@
 		)
 		(symbol "LM5146RGYR_0_1"
 			(pin input line
-				(at -15.24 20.32 0)
-				(length 2.54)
+				(at -17.78 20.32 0)
+				(length 5.08)
 				(name "EN_UVLO"
 					(effects
 						(font
@@ -499,8 +499,8 @@
 				)
 			)
 			(pin unspecified line
-				(at -15.24 10.16 0)
-				(length 2.54)
+				(at -17.78 10.16 0)
+				(length 5.08)
 				(name "VCC"
 					(effects
 						(font
@@ -517,8 +517,8 @@
 				)
 			)
 			(pin open_collector line
-				(at -15.24 5.08 0)
-				(length 2.54)
+				(at -17.78 5.08 0)
+				(length 5.08)
 				(name "PGOOD"
 					(effects
 						(font
@@ -535,8 +535,8 @@
 				)
 			)
 			(pin unspecified line
-				(at -15.24 0 0)
-				(length 2.54)
+				(at -17.78 0 0)
+				(length 5.08)
 				(name "RT"
 					(effects
 						(font
@@ -553,8 +553,8 @@
 				)
 			)
 			(pin unspecified line
-				(at -15.24 -5.08 0)
-				(length 2.54)
+				(at -17.78 -5.08 0)
+				(length 5.08)
 				(name "SS_TRK"
 					(effects
 						(font
@@ -571,8 +571,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -10.16 0)
-				(length 2.54)
+				(at -17.78 -10.16 0)
+				(length 5.08)
 				(name "SYNCIN"
 					(effects
 						(font
@@ -589,8 +589,8 @@
 				)
 			)
 			(pin output line
-				(at -15.24 -15.24 0)
-				(length 2.54)
+				(at -17.78 -15.24 0)
+				(length 5.08)
 				(name "SYNCOUT"
 					(effects
 						(font
@@ -607,8 +607,8 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -27.94 90)
-				(length 2.54)
+				(at -5.08 -30.48 90)
+				(length 5.08)
 				(name "AGND"
 					(effects
 						(font
@@ -625,8 +625,8 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -27.94 90)
-				(length 2.54)
+				(at -2.54 -30.48 90)
+				(length 5.08)
 				(name "EP"
 					(effects
 						(font
@@ -643,8 +643,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 27.94 270)
-				(length 2.54)
+				(at 0 30.48 270)
+				(length 5.08)
 				(name "VIN"
 					(effects
 						(font
@@ -661,8 +661,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -27.94 90)
-				(length 2.54)
+				(at 0 -30.48 90)
+				(length 5.08)
 				(name "EP"
 					(effects
 						(font
@@ -679,8 +679,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 2.54 -27.94 90)
-				(length 2.54)
+				(at 2.54 -30.48 90)
+				(length 5.08)
 				(name "NC"
 					(effects
 						(font
@@ -697,8 +697,8 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -27.94 90)
-				(length 2.54)
+				(at 5.08 -30.48 90)
+				(length 5.08)
 				(name "PGND"
 					(effects
 						(font
@@ -715,8 +715,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 20.32 180)
-				(length 2.54)
+				(at 17.78 20.32 180)
+				(length 5.08)
 				(name "HO"
 					(effects
 						(font
@@ -733,8 +733,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 15.24 180)
-				(length 2.54)
+				(at 17.78 15.24 180)
+				(length 5.08)
 				(name "BST"
 					(effects
 						(font
@@ -751,8 +751,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 7.62 180)
-				(length 2.54)
+				(at 17.78 7.62 180)
+				(length 5.08)
 				(name "SW"
 					(effects
 						(font
@@ -769,8 +769,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 0 180)
-				(length 2.54)
+				(at 17.78 0 180)
+				(length 5.08)
 				(name "ILIM"
 					(effects
 						(font
@@ -787,8 +787,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -5.08 180)
-				(length 2.54)
+				(at 17.78 -5.08 180)
+				(length 5.08)
 				(name "LO"
 					(effects
 						(font
@@ -805,8 +805,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -17.78 180)
-				(length 2.54)
+				(at 17.78 -17.78 180)
+				(length 5.08)
 				(name "FB"
 					(effects
 						(font
@@ -823,8 +823,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -20.32 180)
-				(length 2.54)
+				(at 17.78 -20.32 180)
+				(length 5.08)
 				(name "COMP"
 					(effects
 						(font
@@ -855,8 +855,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -15.24 -20.32 0)
-				(length 2.54)
+				(at -17.78 -20.32 0)
+				(length 5.08)
 				(hide yes)
 				(name "NC"
 					(effects
@@ -876,7 +876,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "LM5148RGYR"
+	(symbol "LM5146RGYR-2"
 		(pin_names
 			(offset 0.254)
 		)
@@ -884,7 +884,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U?"
-			(at 3.556 30.988 0)
+			(at 8.89 -28.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -892,8 +892,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LM5148RGYR"
-			(at 3.556 28.448 0)
+		(property "Value" "LM5146RGYR-2"
+			(at 8.89 -30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -901,8 +901,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RGY0024F-MFG"
-			(at 0 -0.254 0)
+		(property "Footprint" "Package_QFN_JJ:Texas_RGY0020B_EP_3.5x4.5mm_P0.5mm_ThermalVias-D0.3mm"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -911,8 +911,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/lm5148"
-			(at 0.254 0 0)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/lm5146"
+			(at -1.016 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -921,7 +921,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC BUCK SYNC Controller VQFN-24"
+		(property "Description" "IC BUCK SYNC Controller VQFN-20"
+			(at -1.016 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3188679"
+			(at -0.508 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "Extended"
+			(at -0.508 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
+			(at -0.508 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC ALT1" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -930,7 +966,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "LM5148RGYR"
+		(property "PART ALT1" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -939,7 +975,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RGY0024F-MFG"
+		(property "ESR" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -948,191 +984,82 @@
 				(hide yes)
 			)
 		)
-		(symbol "LM5148RGYR_0_1"
+		(property "Power" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at -0.508 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LM5146RGYR"
+			(at -0.508 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at -0.508 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "LM5146RGYR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "RGY0020B-MFG"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LM5146RGYR-2_0_1"
 			(pin input line
-				(at -17.78 21.59 0)
-				(length 2.54)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -17.78 13.97 0)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -17.78 11.43 0)
-				(length 2.54)
-				(name "VCCX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -17.78 1.27 0)
-				(length 2.54)
-				(name "VDDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -17.78 -3.81 0)
-				(length 2.54)
-				(name "EXTCOMP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at -17.78 -6.35 0)
-				(length 2.54)
-				(name "PG_SYNCOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -17.78 -8.89 0)
-				(length 2.54)
-				(name "PFM_SYNC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -17.78 -13.97 0)
-				(length 2.54)
-				(name "RT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -17.78 -16.51 0)
-				(length 2.54)
-				(name "CNFG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -10.16 -27.94 90)
-				(length 2.54)
-				(name "AGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -5.08 -27.94 90)
-				(length 2.54)
-				(name "NC"
+				(at -17.78 20.32 0)
+				(length 5.08)
+				(name "EN_UVLO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1148,34 +1075,16 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -27.94 90)
-				(length 2.54)
-				(name "NC"
+				(at -17.78 10.16 0)
+				(length 5.08)
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 27.94 270)
-				(length 2.54)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1183,10 +1092,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -27.94 90)
-				(length 2.54)
-				(name "PGND"
+			(pin open_collector line
+				(at -17.78 5.08 0)
+				(length 5.08)
+				(name "PGOOD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1202,34 +1111,16 @@
 				)
 			)
 			(pin unspecified line
-				(at 2.54 -27.94 90)
-				(length 2.54)
-				(name "NC"
+				(at -17.78 0 0)
+				(length 5.08)
+				(name "RT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 5.08 -27.94 90)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1238,34 +1129,16 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -27.94 90)
-				(length 2.54)
-				(name "NC"
+				(at -17.78 -2.54 0)
+				(length 5.08)
+				(name "SS_TRK"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 10.16 -27.94 90)
-				(length 2.54)
-				(name "EP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1273,17 +1146,35 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 17.78 19.05 180)
-				(length 2.54)
-				(name "HO"
+			(pin input line
+				(at -17.78 -7.62 0)
+				(length 5.08)
+				(name "SYNCIN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -17.78 -12.7 0)
+				(length 5.08)
+				(name "SYNCOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1292,9 +1183,81 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 13.97 180)
-				(length 2.54)
-				(name "CBOOT"
+				(at -5.08 -30.48 90)
+				(length 5.08)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -30.48 90)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 30.48 270)
+				(length 5.08)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -30.48 90)
+				(length 5.08)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -30.48 90)
+				(length 5.08)
+				(name "EP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1310,16 +1273,16 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 8.89 180)
-				(length 2.54)
-				(name "SW"
+				(at 5.08 -30.48 90)
+				(length 5.08)
+				(name "PGND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1328,9 +1291,63 @@
 				)
 			)
 			(pin unspecified line
-				(at 17.78 3.81 180)
-				(length 2.54)
-				(name "LO"
+				(at 17.78 20.32 180)
+				(length 5.08)
+				(name "HO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 17.78 15.24 180)
+				(length 5.08)
+				(name "BST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 17.78 7.62 180)
+				(length 5.08)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 17.78 0 180)
+				(length 5.08)
+				(name "ILIM"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1346,34 +1363,16 @@
 				)
 			)
 			(pin unspecified line
-				(at 17.78 -6.35 180)
-				(length 2.54)
-				(name "ISNS+"
+				(at 17.78 -5.08 180)
+				(length 5.08)
+				(name "LO"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 17.78 -8.89 180)
-				(length 2.54)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1382,8 +1381,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 17.78 -16.51 180)
-				(length 2.54)
+				(at 17.78 -17.78 180)
+				(length 5.08)
 				(name "FB"
 					(effects
 						(font
@@ -1391,7 +1390,25 @@
 						)
 					)
 				)
-				(number "6"
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 17.78 -20.32 180)
+				(length 5.08)
+				(name "COMP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1400,17 +1417,36 @@
 				)
 			)
 		)
-		(symbol "LM5148RGYR_1_1"
+		(symbol "LM5146RGYR-2_1_1"
 			(rectangle
-				(start -15.24 25.4)
-				(end 15.24 -25.4)
+				(start -12.7 25.4)
+				(end 12.7 -25.4)
 				(stroke
-					(width 0.254)
+					(width 0.2032)
 					(type solid)
 				)
 				(fill
 					(type color)
 					(color 255 255 194 1)
+				)
+			)
+			(pin no_connect line
+				(at -17.78 -20.32 0)
+				(length 5.08)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)

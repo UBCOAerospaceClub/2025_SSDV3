@@ -6,11 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Super Step Down V3")
-		(date "2025-12-02")
+		(date "2026-02-06")
 		(rev "D")
 		(company "Author: Julian Joaquin")
 		(comment 1 "Licensed under CERN-OHL-W version 2")
-		(comment 2 "Copyright © Julian Joaquin, 2025")
+		(comment 2 "Copyright © Julian Joaquin, 2026")
 		(comment 4 "A 12S battery eliminator circuit (BEC) for UAS applications.")
 	)
 	(lib_symbols
@@ -1043,6 +1043,304 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Julian_Symbols:BSZ096N10LS5"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSZ096N10LS5"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SON_JJ:Infineon_PG-TSDSON-8-26_3.3x3.3mm_P0.65mm"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsz096n10ls5-datasheet-en.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "62A Id, 100V Vds, OptiMOS 5 N-Channel Power MOSFET, 9.6mOhm Ron, Qg Typ 22.0nC, TSDSON-8 3.3x3.3mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "OptiMOS Power MOSFET N-MOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "VSON*3.3x3.3mm*P0.65mm*NexFET*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BSZ096N10LS5_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BSZ096N10LS5_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Management:LM5050-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1224,342 +1522,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_FET:CSD19537Q3"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "CSD19537Q3"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/csd19537q3.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "50A Id, 100V Vds, NexFET N-Channel Power MOSFET, 13mOhm Ron, Qg Typ 16.0nC, VSON8 3.3x3.3mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NexFET Power MOSFET N-MOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "VSON*3.3x3.3mm*P0.65mm*NexFET*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CSD19537Q3_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CSD19537Q3_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3021,7 +2983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "097a6914-34fe-4583-96bb-689c66b4ca64")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR04"
 			(at 130.81 88.9 0)
 			(effects
 				(font
@@ -3072,7 +3034,7 @@
 		(instances
 			(project "SSDV3"
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8/2c5420f9-cdfd-4ae0-879c-cf9dbf3cb514"
-					(reference "#PWR08")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3279,7 +3241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b9a8287-1df7-45b4-b38b-88fe5155701e")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR06"
 			(at 172.72 168.91 0)
 			(effects
 				(font
@@ -3330,7 +3292,7 @@
 		(instances
 			(project "SSDV3"
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8/2c5420f9-cdfd-4ae0-879c-cf9dbf3cb514"
-					(reference "#PWR023")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3649,7 +3611,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5121af45-89be-48a3-9ccb-1feee9797689")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR05"
 			(at 143.51 80.01 0)
 			(effects
 				(font
@@ -3699,7 +3661,7 @@
 		(instances
 			(project "SSDV3"
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8/2c5420f9-cdfd-4ae0-879c-cf9dbf3cb514"
-					(reference "#PWR09")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3869,7 +3831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69ca0909-532a-4d80-9835-16b4f8c56de4")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG01"
 			(at 159.385 168.91 0)
 			(effects
 				(font
@@ -3920,7 +3882,7 @@
 		(instances
 			(project "SSDV3"
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8/2c5420f9-cdfd-4ae0-879c-cf9dbf3cb514"
-					(reference "#FLG06")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -4050,7 +4012,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ba26af3-c04a-4b06-b368-de1d5825c42c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR09"
 			(at 215.9 130.81 0)
 			(effects
 				(font
@@ -4100,7 +4062,7 @@
 		(instances
 			(project "SSDV3"
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8/2c5420f9-cdfd-4ae0-879c-cf9dbf3cb514"
-					(reference "#PWR014")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4190,7 +4152,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8db71369-a5af-4b80-a664-7735b839b0a1")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR07"
 			(at 162.56 173.99 0)
 			(effects
 				(font
@@ -4241,74 +4203,7 @@
 		(instances
 			(project "SSDV3"
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8/2c5420f9-cdfd-4ae0-879c-cf9dbf3cb514"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 161.29 179.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac9ddd2b-d934-4651-9fbe-fedf929d8fae")
-		(property "Reference" "#FLG08"
-			(at 159.385 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 157.48 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 161.29 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b668a20-6dc4-4b8d-af6e-4be483d24fbd")
-		)
-		(instances
-			(project "SSDV3"
-				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8/2c5420f9-cdfd-4ae0-879c-cf9dbf3cb514"
-					(reference "#FLG08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4322,7 +4217,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c0526e99-9bbc-4c49-9cec-b809a7b6e82c")
+		(uuid "a795a247-17d2-4eea-9c31-7d0a9022082f")
 		(property "Reference" "R1"
 			(at 207.01 91.44 0)
 			(effects
@@ -4332,7 +4227,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "1.5k"
 			(at 207.01 93.98 0)
 			(effects
 				(font
@@ -4359,7 +4254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 68Ω 1% 75V 100mW 0603"
+		(property "Description" "RES 1.5kΩ 1% 75V 100mW 0603"
 			(at 204.47 92.71 0)
 			(effects
 				(font
@@ -4368,7 +4263,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C27592"
+		(property "LCSC PN" "C22843"
 			(at 204.47 92.71 0)
 			(effects
 				(font
@@ -4377,7 +4272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Type" "Preferred Extended"
+		(property "Part Type" "Basic"
 			(at 204.47 92.71 0)
 			(effects
 				(font
@@ -4460,7 +4355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "0603WAF680JT5E"
+		(property "Part Number" "0603WAF1501T5E"
 			(at 204.47 92.71 0)
 			(effects
 				(font
@@ -4479,15 +4374,82 @@
 			)
 		)
 		(pin "1"
-			(uuid "bfde3dd5-116b-494d-8294-8b5fadff00a5")
+			(uuid "31e96c4b-9645-474f-9536-f38a39cfd171")
 		)
 		(pin "2"
-			(uuid "01bc3f80-986d-4558-8be1-54bf497e5b00")
+			(uuid "aeb26302-8121-4703-8fad-0b5db494be6f")
 		)
 		(instances
 			(project "SSDV3"
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8/2c5420f9-cdfd-4ae0-879c-cf9dbf3cb514"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 161.29 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac9ddd2b-d934-4651-9fbe-fedf929d8fae")
+		(property "Reference" "#FLG03"
+			(at 159.385 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 157.48 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 161.29 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b668a20-6dc4-4b8d-af6e-4be483d24fbd")
+		)
+		(instances
+			(project "SSDV3"
+				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8/2c5420f9-cdfd-4ae0-879c-cf9dbf3cb514"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -4672,7 +4634,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:CSD19537Q3")
+		(lib_id "Julian_Symbols:BSZ096N10LS5")
 		(at 184.15 81.28 270)
 		(mirror x)
 		(unit 1)
@@ -4690,7 +4652,7 @@
 				)
 			)
 		)
-		(property "Value" "CSD19537Q3"
+		(property "Value" "BSZ146N10LS5"
 			(at 184.15 74.93 90)
 			(effects
 				(font
@@ -4698,7 +4660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON_JJ:Texas_DQG0008A_3.3x3.3mm_P0.65mm_ThermalVias-D0.3mm"
+		(property "Footprint" "Package_SON_JJ:Infineon_PG-TSDSON-8-26_3.3x3.3mm_P0.65mm_ThermalVias-D0.3mm"
 			(at 182.245 76.2 0)
 			(effects
 				(font
@@ -4709,7 +4671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/csd19537q3.pdf"
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsz146n10ls5-datasheet-en.pdf"
 			(at 180.34 76.2 0)
 			(effects
 				(font
@@ -4719,7 +4681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET N-CH 100V 53A VSON-8(3.3x3.3)"
+		(property "Description" "MOSFET N-CH 100V 44A TSDSON-8FL"
 			(at 184.15 81.28 0)
 			(effects
 				(font
@@ -4728,7 +4690,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C134143"
+		(property "LCSC PN" "C3289340"
 			(at 184.15 81.28 90)
 			(effects
 				(font
@@ -4737,7 +4699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments"
+		(property "Manufacturer" "Infineon Technologies"
 			(at 184.15 81.28 90)
 			(effects
 				(font
@@ -4746,7 +4708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CSD19537Q3T"
+		(property "Part Number" "BSZ146N10LS5ATMA1"
 			(at 184.15 81.28 90)
 			(effects
 				(font
@@ -4764,7 +4726,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "0"
+		(property "FT Rotation Offset" "-90"
 			(at 184.15 81.28 90)
 			(effects
 				(font
@@ -4772,9 +4734,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "5"
-			(uuid "aaf6a76c-4c86-4b60-98a9-1101a992fd56")
 		)
 		(pin "2"
 			(uuid "37e5493a-a04d-4438-b046-e2ee5fe60914")
@@ -4784,9 +4743,6 @@
 		)
 		(pin "1"
 			(uuid "ea8a421e-6662-4bcf-98a4-1a9a71a9dcfa")
-		)
-		(pin "4"
-			(uuid "aec9cf73-c72a-47aa-a077-8459c2610a52")
 		)
 		(instances
 			(project "SSDV3"
@@ -4883,7 +4839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f87a5790-e871-4f90-ac77-34ce4b669970")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR08"
 			(at 215.9 80.01 0)
 			(effects
 				(font
@@ -4933,7 +4889,7 @@
 		(instances
 			(project "SSDV3"
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8/2c5420f9-cdfd-4ae0-879c-cf9dbf3cb514"
-					(reference "#PWR013")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
