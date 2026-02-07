@@ -8,7 +8,7 @@
 		(title "Super Step Down V3")
 		(date "2026-02-06")
 		(rev "D")
-		(company "Author: Julian Joaquin")
+		(company "UBCO Aerospace")
 		(comment 1 "Licensed under CERN-OHL-W version 2")
 		(comment 2 "Copyright © Julian Joaquin, 2026")
 		(comment 4 "A 12S battery eliminator circuit (BEC) for UAS applications.")
@@ -2193,6 +2193,29 @@
 		)
 		(uuid "e2d65c57-a12b-4237-b6ed-e065689e8290")
 	)
+	(text_box "UBCO is registered trademark of the University of British Columbia.\nThe use of UBC trademarks in this project are only for indentification,\nand do not indicate association or endorsement. For guidelines on the\npermitted uses of UBC trademarks, please see\nhttp://universitycounsel.ubc.ca/university-trade-marks/."
+		(exclude_from_sim no)
+		(at 100.33 182.88 0)
+		(size 73.66 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left top)
+			(href "http://universitycounsel.ubc.ca/university-trade-marks")
+		)
+		(uuid "a58fc9c8-da8b-4904-b2c5-ae6309639197")
+	)
 	(junction
 		(at 173.99 78.74)
 		(diameter 0)
@@ -2357,7 +2380,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 179.07) (xy 166.37 179.07)
+			(xy 264.16 158.75) (xy 269.24 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2407,7 +2430,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 168.91) (xy 166.37 168.91)
+			(xy 264.16 148.59) (xy 269.24 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2557,7 +2580,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 173.99) (xy 166.37 173.99)
+			(xy 264.16 153.67) (xy 269.24 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2856,7 +2879,7 @@
 		(uuid "ea654464-16ad-4ade-a2b9-46875a3ca89e")
 	)
 	(label "U1_GND"
-		(at 166.37 179.07 0)
+		(at 269.24 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3233,7 +3256,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 166.37 168.91 90)
+		(at 269.24 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3242,7 +3265,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b9a8287-1df7-45b4-b38b-88fe5155701e")
 		(property "Reference" "#PWR06"
-			(at 172.72 168.91 0)
+			(at 275.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,7 +3274,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 170.18 168.91 90)
+			(at 273.05 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3260,7 +3283,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 168.91 0)
+			(at 269.24 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3269,7 +3292,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 168.91 0)
+			(at 269.24 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3278,7 +3301,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 166.37 168.91 0)
+			(at 269.24 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3669,7 +3692,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 161.29 173.99 90)
+		(at 264.16 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3678,7 +3701,7 @@
 		(fields_autoplaced yes)
 		(uuid "57b90502-50d8-465a-a4f4-5f30214d6df1")
 		(property "Reference" "#FLG02"
-			(at 159.385 173.99 0)
+			(at 262.255 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,7 +3710,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 157.48 173.99 90)
+			(at 260.35 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,7 +3719,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 173.99 0)
+			(at 264.16 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,7 +3728,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 173.99 0)
+			(at 264.16 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,7 +3737,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 161.29 173.99 0)
+			(at 264.16 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3823,7 +3846,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 161.29 168.91 90)
+		(at 264.16 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3832,7 +3855,7 @@
 		(fields_autoplaced yes)
 		(uuid "69ca0909-532a-4d80-9835-16b4f8c56de4")
 		(property "Reference" "#FLG01"
-			(at 159.385 168.91 0)
+			(at 262.255 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3841,7 +3864,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 157.48 168.91 90)
+			(at 260.35 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3850,7 +3873,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 168.91 0)
+			(at 264.16 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3859,7 +3882,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 168.91 0)
+			(at 264.16 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3868,7 +3891,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 161.29 168.91 0)
+			(at 264.16 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4145,7 +4168,7 @@
 	)
 	(symbol
 		(lib_id "power:VDDA")
-		(at 166.37 173.99 270)
+		(at 269.24 153.67 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4153,7 +4176,7 @@
 		(dnp no)
 		(uuid "8db71369-a5af-4b80-a664-7735b839b0a1")
 		(property "Reference" "#PWR07"
-			(at 162.56 173.99 0)
+			(at 265.43 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +4185,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 170.18 173.99 90)
+			(at 273.05 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +4194,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 173.99 0)
+			(at 269.24 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4180,7 +4203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 173.99 0)
+			(at 269.24 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,7 +4212,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 166.37 173.99 0)
+			(at 269.24 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,7 +4413,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 161.29 179.07 90)
+		(at 264.16 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4399,7 +4422,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac9ddd2b-d934-4651-9fbe-fedf929d8fae")
 		(property "Reference" "#FLG03"
-			(at 159.385 179.07 0)
+			(at 262.255 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4408,7 +4431,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 157.48 179.07 90)
+			(at 260.35 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4417,7 +4440,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 179.07 0)
+			(at 264.16 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4426,7 +4449,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 179.07 0)
+			(at 264.16 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,7 +4458,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 161.29 179.07 0)
+			(at 264.16 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)

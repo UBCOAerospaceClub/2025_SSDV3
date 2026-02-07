@@ -1,5 +1,3 @@
-<p style="text-align: center;font-weight: bold;">This project has been migrated to the UBCO Aerospace Club <a href="https://github.com/UBCOAerospaceClub/2025_SSDV3">2025_SSDV3</a> fork.</p>
-
 # The Super Step Down V3
 
 ![Top View](kicad/SSDV3_board_snazzy.png)
@@ -69,4 +67,8 @@ This design is motivated by the challenges encountered by the [UBCO Aerospace Cl
 
 Copyright &#169; Julian Joaquin 2026
 
+Documentation and media are licensed under CC BY-SA 4.0
+
 Hardware Source Licensed under CERN-OHL-W version 2
+
+UBCO is registered trademark of the University of British Columbia. The use of UBC trademarks in this project are only for indentification, and do not indicate association or endorsement. For guidelines on the permitted uses of UBC trademarks, please see http://universitycounsel.ubc.ca/university-trade-marks/.

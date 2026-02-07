@@ -8,7 +8,7 @@
 		(title "Super Step Down V3")
 		(date "2026-02-06")
 		(rev "D")
-		(company "Author: Julian Joaquin")
+		(company "UBCO Aerospace")
 		(comment 1 "Licensed under CERN-OHL-W version 2")
 		(comment 2 "Copyright © Julian Joaquin, 2026")
 		(comment 4 "A 12S battery eliminator circuit (BEC) for UAS applications.")
@@ -1419,8 +1419,8 @@
 		)
 	)
 	(rectangle
-		(start 193.04 93.98)
-		(end 259.08 162.56)
+		(start 190.5 93.98)
+		(end 261.62 162.56)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -1431,8 +1431,8 @@
 		(uuid 3daa205d-ae62-42a8-a5e9-3192264bdaeb)
 	)
 	(rectangle
-		(start 25.4 140.97)
-		(end 146.05 193.04)
+		(start 25.4 110.49)
+		(end 146.05 162.56)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -1444,7 +1444,7 @@
 	)
 	(text "Heatsink"
 		(exclude_from_sim no)
-		(at 32.512 148.59 0)
+		(at 32.512 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1469,7 +1469,7 @@
 	)
 	(text "CAUTION\nHOT SURFACE"
 		(exclude_from_sim no)
-		(at 116.84 156.21 0)
+		(at 116.84 125.73 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -1496,7 +1496,7 @@
 	)
 	(text "JLCPCB Eco PCBA Tooling Holes"
 		(exclude_from_sim no)
-		(at 67.056 148.59 0)
+		(at 67.056 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1509,7 +1509,7 @@
 	)
 	(text "Mechanical"
 		(exclude_from_sim no)
-		(at 85.598 187.706 0)
+		(at 85.598 157.226 0)
 		(effects
 			(font
 				(size 1.8796 1.8796)
@@ -1518,6 +1518,29 @@
 			)
 		)
 		(uuid "e92530cd-65ba-4aeb-8f52-a38e70b57f55")
+	)
+	(text_box "UBCO is registered trademark of the University of British Columbia.\nThe use of UBC trademarks in this project are only for indentification,\nand do not indicate association or endorsement. For guidelines on the\npermitted uses of UBC trademarks, please see\nhttp://universitycounsel.ubc.ca/university-trade-marks/."
+		(exclude_from_sim no)
+		(at 100.33 182.88 0)
+		(size 73.66 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left top)
+			(href "http://universitycounsel.ubc.ca/university-trade-marks")
+		)
+		(uuid "45209e04-f13a-40dc-af8a-ab44e4d4c964")
 	)
 	(junction
 		(at 234.95 113.03)
@@ -2354,7 +2377,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 74.93 165.1 0)
+		(at 74.93 134.62 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2363,7 +2386,7 @@
 		(fields_autoplaced yes)
 		(uuid "0690430e-6804-4cd4-a22e-61617b2265cc")
 		(property "Reference" "H3"
-			(at 77.47 163.83 0)
+			(at 77.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2372,7 +2395,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 77.47 166.37 0)
+			(at 77.47 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,7 +2404,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
-			(at 74.93 165.1 0)
+			(at 74.93 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,7 +2413,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 165.1 0)
+			(at 74.93 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2399,7 +2422,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 74.93 165.1 0)
+			(at 74.93 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,7 +2431,7 @@
 			)
 		)
 		(property "LCSC ALT1" ""
-			(at 74.93 165.1 0)
+			(at 74.93 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2417,7 +2440,7 @@
 			)
 		)
 		(property "PART ALT1" ""
-			(at 74.93 165.1 0)
+			(at 74.93 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2426,7 +2449,7 @@
 			)
 		)
 		(property "ESR" ""
-			(at 74.93 165.1 0)
+			(at 74.93 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,7 +2458,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 74.93 165.1 0)
+			(at 74.93 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,7 +2467,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 74.93 165.1 0)
+			(at 74.93 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,7 +2476,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 74.93 165.1 0)
+			(at 74.93 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2462,7 +2485,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 74.93 165.1 0)
+			(at 74.93 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +2570,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 74.93 160.02 0)
+		(at 74.93 129.54 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2556,7 +2579,7 @@
 		(fields_autoplaced yes)
 		(uuid "214755f3-086e-4b2c-b500-4ac7b36516b8")
 		(property "Reference" "H2"
-			(at 77.47 158.75 0)
+			(at 77.47 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2565,7 +2588,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 77.47 161.29 0)
+			(at 77.47 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2574,7 +2597,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
-			(at 74.93 160.02 0)
+			(at 74.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2583,7 +2606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 160.02 0)
+			(at 74.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2592,7 +2615,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 74.93 160.02 0)
+			(at 74.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,7 +2624,7 @@
 			)
 		)
 		(property "LCSC ALT1" ""
-			(at 74.93 160.02 0)
+			(at 74.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2610,7 +2633,7 @@
 			)
 		)
 		(property "PART ALT1" ""
-			(at 74.93 160.02 0)
+			(at 74.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,7 +2642,7 @@
 			)
 		)
 		(property "ESR" ""
-			(at 74.93 160.02 0)
+			(at 74.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2628,7 +2651,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 74.93 160.02 0)
+			(at 74.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,7 +2660,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 74.93 160.02 0)
+			(at 74.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +2669,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 74.93 160.02 0)
+			(at 74.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,7 +2678,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 74.93 160.02 0)
+			(at 74.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2926,7 +2949,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 74.93 154.94 0)
+		(at 74.93 124.46 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2935,7 +2958,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8b53c69-df99-4a1f-8c87-09006ab156a8")
 		(property "Reference" "H1"
-			(at 77.47 153.67 0)
+			(at 77.47 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,7 +2967,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 77.47 156.21 0)
+			(at 77.47 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2953,7 +2976,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
-			(at 74.93 154.94 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,7 +2985,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 154.94 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2971,7 +2994,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 74.93 154.94 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2980,7 +3003,7 @@
 			)
 		)
 		(property "LCSC ALT1" ""
-			(at 74.93 154.94 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,7 +3012,7 @@
 			)
 		)
 		(property "PART ALT1" ""
-			(at 74.93 154.94 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +3021,7 @@
 			)
 		)
 		(property "ESR" ""
-			(at 74.93 154.94 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,7 +3030,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 74.93 154.94 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,7 +3039,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 74.93 154.94 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,7 +3048,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 74.93 154.94 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,7 +3057,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 74.93 154.94 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3322,7 +3345,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_Hot_Large")
-		(at 107.95 154.94 0)
+		(at 107.95 124.46 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3331,7 +3354,7 @@
 		(fields_autoplaced yes)
 		(uuid "e48c90d9-1580-4925-95d7-2a62c8ef26c3")
 		(property "Reference" "#SYM1"
-			(at 107.95 149.86 0)
+			(at 107.95 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +3363,7 @@
 			)
 		)
 		(property "Value" "SYM_Hot_Large"
-			(at 107.95 161.29 0)
+			(at 107.95 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,7 +3372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 160.02 0)
+			(at 107.95 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3358,7 +3381,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 108.712 160.02 0)
+			(at 108.712 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,7 +3390,7 @@
 			)
 		)
 		(property "Description" "Hot surface warning symbol, large"
-			(at 107.95 154.94 0)
+			(at 107.95 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3386,7 +3409,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Heatsink")
-		(at 35.56 156.21 0)
+		(at 35.56 125.73 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3395,7 +3418,7 @@
 		(fields_autoplaced yes)
 		(uuid "f259a804-5063-4725-a905-bef0844f1a99")
 		(property "Reference" "HS1"
-			(at 39.37 153.035 0)
+			(at 39.37 122.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,7 +3427,7 @@
 			)
 		)
 		(property "Value" "241802B92200G"
-			(at 39.37 155.575 0)
+			(at 39.37 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +3436,7 @@
 			)
 		)
 		(property "Footprint" "Heatsink_JJ:24180xB9x200G"
-			(at 35.8648 156.21 0)
+			(at 35.8648 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3445,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.8648 156.21 0)
+			(at 35.8648 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +3454,7 @@
 			)
 		)
 		(property "Description" "241802B92200G"
-			(at 35.56 156.21 0)
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +3463,7 @@
 			)
 		)
 		(property "LCSC ALT1" ""
-			(at 35.56 156.21 0)
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +3472,7 @@
 			)
 		)
 		(property "PART ALT1" ""
-			(at 35.56 156.21 0)
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,7 +3481,7 @@
 			)
 		)
 		(property "ESR" ""
-			(at 35.56 156.21 0)
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3467,7 +3490,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 35.56 156.21 0)
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3476,7 +3499,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 35.56 156.21 0)
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3485,7 +3508,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 35.56 156.21 0)
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3494,7 +3517,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 35.56 156.21 0)
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3503,7 +3526,7 @@
 			)
 		)
 		(property "Manufacturer" "Aavid"
-			(at 35.56 156.21 0)
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
