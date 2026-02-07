@@ -68,11 +68,11 @@
           ""
         ],
         [
-          "clearance|152899998|116100000|336ab87a-5b61-46dd-94ed-b8e003151fe8|60a8b31d-f89b-41d5-b979-7a89b7dcc716",
+          "clearance|152399999|116700001|05a3d547-f399-499b-a81e-1c772a026bb8|4eb3cef8-aa12-4076-a196-e9e68429d163",
           ""
         ],
         [
-          "clearance|152899999|116425000|4eb3cef8-aa12-4076-a196-e9e68429d163|60a8b31d-f89b-41d5-b979-7a89b7dcc716",
+          "clearance|152899998|116100000|336ab87a-5b61-46dd-94ed-b8e003151fe8|60a8b31d-f89b-41d5-b979-7a89b7dcc716",
           ""
         ],
         [
@@ -84,19 +84,11 @@
           ""
         ],
         [
-          "courtyards_overlap|154634999|125405000|7951b6bf-b424-4ad6-adda-1c84a1121d4b|9ea31bf9-7193-4240-a6ed-ce9334942967",
+          "courtyards_overlap|154634999|125405000|9ea31bf9-7193-4240-a6ed-ce9334942967|f81be67a-dbdd-413f-8145-45ba5714e88c",
           ""
         ],
         [
-          "courtyards_overlap|157634999|125405000|9ea31bf9-7193-4240-a6ed-ce9334942967|f81be67a-dbdd-413f-8145-45ba5714e88c",
-          ""
-        ],
-        [
-          "solder_mask_bridge|153899999|119875000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|3557dcfa-a4d7-4478-9c13-095868b43b08",
-          ""
-        ],
-        [
-          "solder_mask_bridge|154024999|118875000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|2b64215b-036f-4654-915c-5cc2efd17b1f",
+          "courtyards_overlap|157655000|125405000|7951b6bf-b424-4ad6-adda-1c84a1121d4b|9ea31bf9-7193-4240-a6ed-ce9334942967",
           ""
         ]
       ],
@@ -756,7 +748,7 @@
           "group_by": false,
           "label": "Part Number",
           "name": "Part Number",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -875,7 +867,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"

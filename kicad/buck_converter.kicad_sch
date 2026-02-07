@@ -6803,7 +6803,7 @@
 		(at 220.98 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "064a6fc3-6295-45e9-8ad1-a014b1438f72")
@@ -6825,7 +6825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 221.9452 93.98 0)
 			(effects
 				(font
@@ -7393,7 +7393,7 @@
 		(at 201.93 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "16d0896e-fece-42d9-b39b-d58dff4df72c")
@@ -7415,7 +7415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 202.8952 93.98 0)
 			(effects
 				(font
@@ -7766,7 +7766,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "215bd0c7-6957-4778-a51e-a6c26b2f2ee0")
@@ -7788,7 +7788,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 190.754 129.794 90)
 			(effects
 				(font
@@ -7952,7 +7952,7 @@
 		(at 241.3 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "21c8123a-9103-4929-a76e-bb14e381e85e")
@@ -10128,7 +10128,7 @@
 		(at 171.45 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6ac81476-3d5b-4170-9847-a51f09665deb")
@@ -11276,7 +11276,7 @@
 		(at 227.33 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8cf3ec4d-fae9-409d-9ea0-a2a5f6ad65d4")
@@ -11298,7 +11298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 228.2952 93.98 0)
 			(effects
 				(font
@@ -12306,7 +12306,7 @@
 		(at 214.63 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a4b38590-c0d8-44c1-961a-c4db73d037c0")
@@ -12328,7 +12328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 215.5952 93.98 0)
 			(effects
 				(font
@@ -13269,7 +13269,7 @@
 		(at 233.68 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "bb9dfd9c-502b-4a4a-98b3-650b00f01180")
@@ -13291,7 +13291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 234.6452 93.98 0)
 			(effects
 				(font
@@ -13818,7 +13818,7 @@
 		(at 208.28 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "be38338e-c914-46af-b78e-05119a6be7bd")
@@ -13840,7 +13840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 209.2452 93.98 0)
 			(effects
 				(font
