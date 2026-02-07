@@ -6960,6 +6960,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 220.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c325197-987c-41f5-8f01-f7ff44e1a85e")
 		)
@@ -7031,6 +7040,15 @@
 			)
 		)
 		(property "Part Number" ""
+			(at 265.43 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Type" ""
 			(at 265.43 78.74 0)
 			(effects
 				(font
@@ -7346,6 +7364,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 102.87 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0b2cb5d7-4491-438f-8a3d-792d402c5a34")
 		)
@@ -7523,6 +7550,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 201.93 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8384427-fa39-4919-8f76-355bcd52f237")
 		)
@@ -7692,6 +7728,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 52.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Type" ""
 			(at 52.07 99.06 0)
 			(effects
 				(font
@@ -7878,6 +7923,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 191.77 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6253f441-e867-4ec9-a45f-2f5ed7e8bea9")
 		)
@@ -8011,6 +8065,15 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
+			(at 241.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Type" ""
 			(at 241.3 90.17 0)
 			(effects
 				(font
@@ -8182,6 +8245,15 @@
 		)
 		(property "Manufacturer" "Texas Instruments"
 			(at 87.122 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Type" ""
+			(at 87.63 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8416,6 +8488,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 110.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Type" ""
 			(at 110.49 40.64 0)
 			(effects
 				(font
@@ -8688,6 +8769,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 170.18 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d42b2a5b-7453-4b87-81ca-5325e072390f")
 		)
@@ -8864,6 +8954,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 135.89 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81fc60c4-26e0-43ab-83b4-88d6ca555021")
 		)
@@ -9031,6 +9130,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 125.73 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Type" ""
 			(at 125.73 83.82 90)
 			(effects
 				(font
@@ -9217,6 +9325,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 87.63 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c7c7483b-77c4-43ae-9ab8-e449badcc151")
 		)
@@ -9351,6 +9468,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 57.15 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Type" ""
 			(at 57.15 53.34 0)
 			(effects
 				(font
@@ -9528,6 +9654,15 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
+			(at 143.51 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Type" ""
 			(at 143.51 40.64 0)
 			(effects
 				(font
@@ -9780,6 +9915,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 120.65 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c75a0e5-2143-47ab-a686-ec49c137eae9")
 		)
@@ -9947,6 +10091,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 125.73 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Type" ""
 			(at 125.73 68.58 90)
 			(effects
 				(font
@@ -10128,6 +10281,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 171.45 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1baca05-9f13-4318-83c5-1d57a8def841")
 		)
@@ -10253,6 +10415,15 @@
 			)
 		)
 		(property "Part Number" ""
+			(at 52.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Type" ""
 			(at 52.07 109.22 0)
 			(effects
 				(font
@@ -10430,6 +10601,15 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
+			(at 39.37 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Type" ""
 			(at 39.37 104.14 0)
 			(effects
 				(font
@@ -10747,6 +10927,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 252.73 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8db43ac-6048-437a-91a3-b3b41e2e9dba")
 		)
@@ -10916,6 +11105,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 191.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Type" ""
 			(at 191.77 95.25 0)
 			(effects
 				(font
@@ -11235,6 +11433,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 227.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac6cc940-4259-41ae-9188-aa048e4a6a43")
 		)
@@ -11480,6 +11687,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 181.61 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d3dc74f3-6d7f-411b-be58-2851158af8d1")
 		)
@@ -11650,6 +11866,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 133.35 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Type" ""
 			(at 133.35 40.64 0)
 			(effects
 				(font
@@ -11901,6 +12126,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 92.71 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3643c68e-4aa7-4dab-99b5-94cac207b5e3")
 		)
@@ -12035,6 +12269,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 57.15 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Type" ""
 			(at 57.15 38.1 0)
 			(effects
 				(font
@@ -12220,6 +12463,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 214.63 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2737b68c-51e6-456e-b195-b306df0d0675")
 		)
@@ -12299,7 +12551,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "0"
+		(property "FT Rotation Offset" "180"
 			(at 252.73 95.25 90)
 			(effects
 				(font
@@ -12390,6 +12642,15 @@
 			)
 		)
 		(property "Manufacturer" "Hubei KENTO Electronics"
+			(at 252.73 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Type" ""
 			(at 252.73 95.25 90)
 			(effects
 				(font
@@ -12630,6 +12891,15 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
+			(at 118.11 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Type" ""
 			(at 118.11 68.58 90)
 			(effects
 				(font
@@ -12904,6 +13174,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 181.61 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84ce3061-9dce-4e27-ad46-455828a466de")
 		)
@@ -13147,6 +13426,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 233.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e2b3428c-ab3d-4c61-8087-f3b3c04d466f")
 		)
@@ -13325,6 +13613,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 125.73 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2808b594-9d87-426c-9f79-b1d639294a8d")
 		)
@@ -13487,6 +13784,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "JLCPCB Part Type" ""
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13669,6 +13975,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 208.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e781a8c-f283-4474-a36a-57006bde4a9a")
 		)
@@ -13839,6 +14154,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 118.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Type" ""
 			(at 118.11 40.64 0)
 			(effects
 				(font
@@ -14156,6 +14480,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 22.86 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06abeb07-6826-4a22-8245-f8aa545ada2f")
 		)
@@ -14326,6 +14659,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 33.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Type" ""
 			(at 33.02 104.14 0)
 			(effects
 				(font
@@ -14577,6 +14919,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 181.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d7430a97-72d1-439b-8977-e022a8bed783")
 		)
@@ -14753,6 +15104,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 148.59 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "070740fa-4fca-48f8-9582-1e9dc594a508")
 		)
@@ -14876,6 +15236,15 @@
 			)
 		)
 		(property "Part Number" ""
+			(at 87.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Type" ""
 			(at 87.63 119.38 0)
 			(effects
 				(font
@@ -15054,6 +15423,15 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
+			(at 170.18 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Type" ""
 			(at 170.18 129.54 0)
 			(effects
 				(font
@@ -15242,6 +15620,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b53e62b6-5f43-4244-bbee-9c629d9c1680")
 		)
@@ -15418,6 +15805,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Type" ""
+			(at 142.24 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e4bba69c-83cc-4fa9-96f6-55d433f7ec99")
 		)
@@ -15556,6 +15952,15 @@
 			)
 		)
 		(property "Part Number" ""
+			(at 265.43 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Type" ""
 			(at 265.43 101.6 0)
 			(effects
 				(font
@@ -15731,6 +16136,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 67.31 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Type" ""
 			(at 67.31 76.2 0)
 			(effects
 				(font
@@ -15930,6 +16344,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "JLCPCB Part Type" ""
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
