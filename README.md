@@ -55,7 +55,7 @@ This design is motivated by the challenges encountered by the [UBCO Aerospace Cl
 
 ![Voltage ripple 5.1V](figures/ssdv32542c04_5v_ripple2.png)
 
-**Transient response of 5.1V 0-5A Output**
+**Transient response of 5.1V 5-0A Output**
 
 ![Transient response](figures/ssdv32542c04_5v_5_0a_trans.png)
 
@@ -71,4 +71,4 @@ Documentation and media are licensed under CC BY-SA 4.0
 
 Hardware Source Licensed under CERN-OHL-W version 2
 
-UBCO is registered trademark of the University of British Columbia. The use of UBC trademarks in this project are only for indentification, and do not indicate association or endorsement. For guidelines on the permitted uses of UBC trademarks, please see http://universitycounsel.ubc.ca/university-trade-marks/.
+UBCO is registered trademark of the University of British Columbia. The use of UBC trademarks in this project are only for identification, and do not indicate association or endorsement. For guidelines on the permitted uses of UBC trademarks, please see http://universitycounsel.ubc.ca/university-trade-marks/.

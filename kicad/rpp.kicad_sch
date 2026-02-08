@@ -2193,10 +2193,10 @@
 		)
 		(uuid "e2d65c57-a12b-4237-b6ed-e065689e8290")
 	)
-	(text_box "UBCO is registered trademark of the University of British Columbia.\nThe use of UBC trademarks in this project are only for indentification,\nand do not indicate association or endorsement. For guidelines on the\npermitted uses of UBC trademarks, please see\nhttp://universitycounsel.ubc.ca/university-trade-marks/."
+	(text_box "UBCO is registered trademark of the University of British Columbia.\nThe use of UBC trademarks in this project are only for identification,\nand do not indicate association or endorsement. For guidelines on the\npermitted uses of UBC trademarks, please see\nhttp://universitycounsel.ubc.ca/university-trade-marks/."
 		(exclude_from_sim no)
-		(at 100.33 182.88 0)
-		(size 73.66 12.7)
+		(at 95.25 182.88 0)
+		(size 78.74 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
