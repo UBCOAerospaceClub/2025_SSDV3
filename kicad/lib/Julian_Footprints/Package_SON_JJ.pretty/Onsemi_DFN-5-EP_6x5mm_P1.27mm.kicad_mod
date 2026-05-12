@@ -1,0 +1,318 @@
+(footprint "Onsemi_DFN-5-EP_6x5mm_P1.27mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "5 Pin SO-8FL, Case 488AA (https://www.onsemi.com/download/package-drawing/pdf/488aa.pdf)")
+	(tags "Thermally-enhanced SO-8 PowerPAK PQFN Q5A PowerFLAT LFPAK SOT669 WPAK(3F) LFPAK Power56 PMPAK PowerDFN56 HSOP8 PRPAK56 PDFN HVSON")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "652c26ef-1917-443d-a187-56c659311b66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Onsemi_DFN-5-EP_6x5mm_P1.27mm"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "4a68d808-6fda-41dd-be02-c3a4b387c793")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91fe19c0-2722-4cd6-a68b-961cee84157b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "552b04fa-49a7-4e26-9268-46e673fc5852")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.25 -2.75)
+		(end -1.1 -2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12d415d5-64c6-4a0e-a480-c4ccb1038dba")
+	)
+	(fp_line
+		(start -2.25 2.75)
+		(end -1.1 2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7717d7aa-6942-44c5-a69c-58beeea0a3a5")
+	)
+	(fp_line
+		(start 0.2 -2.75)
+		(end 3.7 -2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cddc64db-4a05-403d-aeda-64c594759819")
+	)
+	(fp_line
+		(start 0.2 2.75)
+		(end 3.7 2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47b77801-7a98-4f9c-89e3-607916ce9392")
+	)
+	(fp_line
+		(start 3.7 2.75)
+		(end 3.7 -2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07e689cc-5e4b-4f55-97d4-aa1d569d739e")
+	)
+	(fp_poly
+		(pts
+			(xy -2.74 -2.52) (xy -2.98 -2.85) (xy -2.5 -2.85) (xy -2.74 -2.52)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "bcd03952-d057-492a-9180-3b883291d5bd")
+	)
+	(fp_rect
+		(start -3.55 -2.9)
+		(end 3.75 2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bca2787e-2f66-4996-98c8-655c3507b89b")
+	)
+	(fp_line
+		(start -3.3 -1.1)
+		(end -3.3 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96aa3ea5-03d1-4b35-b875-73cc36d1fd9b")
+	)
+	(fp_line
+		(start -3.3 -1.1)
+		(end -2 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0b8107c-e97f-4aad-a231-dcc042774953")
+	)
+	(fp_line
+		(start -3.3 2.4)
+		(end 3.3 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74909b7d-45b7-4db4-8add-a8746b0b0427")
+	)
+	(fp_line
+		(start 3.3 -2.4)
+		(end -2 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04360f42-d5a3-4d56-b448-bda956a44fdd")
+	)
+	(fp_line
+		(start 3.3 2.4)
+		(end 3.3 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "65b84f7e-4258-4c29-b6bb-065f7ab97d09")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "cc5faf19-db13-416b-8031-ba74da42398c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at -0.4525 -2.5 90)
+		(size 0.45 0.8)
+		(layers "F.Paste")
+		(solder_paste_margin -0.05)
+		(uuid "eb667c56-acfd-42d6-9d8d-c2b749e193c5")
+	)
+	(pad "" smd rect
+		(at -0.4525 2.5 90)
+		(size 0.45 0.8)
+		(layers "F.Paste")
+		(solder_paste_margin -0.05)
+		(uuid "384ede4f-eeb1-4a31-b57c-b72bb8751a51")
+	)
+	(pad "" smd rect
+		(at -0.4 -1.15 90)
+		(size 1.9 1.6)
+		(layers "F.Paste")
+		(zone_connect 0)
+		(uuid "50c40840-b1fd-4bf5-8099-39f6d4e17f9d")
+	)
+	(pad "" smd rect
+		(at -0.4 1.15 90)
+		(size 1.9 1.6)
+		(layers "F.Paste")
+		(zone_connect 0)
+		(uuid "273c8f9b-b7be-4be5-ab71-8bb634bcc275")
+	)
+	(pad "" smd rect
+		(at 1.5 -1.15 90)
+		(size 1.9 1.6)
+		(layers "F.Paste")
+		(zone_connect 0)
+		(uuid "d7b3adeb-2c07-4a71-a314-1d520bfb22a7")
+	)
+	(pad "" smd rect
+		(at 1.5 1.15 90)
+		(size 1.9 1.6)
+		(layers "F.Paste")
+		(zone_connect 0)
+		(uuid "34aef84b-0db8-4fad-bd03-483381df3395")
+	)
+	(pad "" smd rect
+		(at 2.82 -1.91 90)
+		(size 0.66 0.66)
+		(layers "F.Paste")
+		(zone_connect 0)
+		(uuid "4f02aa58-d31a-4e19-99a3-5393c452e47e")
+	)
+	(pad "" smd rect
+		(at 2.82 1.91 90)
+		(size 0.66 0.66)
+		(layers "F.Paste")
+		(zone_connect 0)
+		(uuid "0ae2446c-f80c-4c53-ac53-2e8066b3eb9e")
+	)
+	(pad "1" smd rect
+		(at -2.725 -1.905 90)
+		(size 0.75 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.05)
+		(uuid "098a989c-f45f-43dc-b059-a5c73a36b52d")
+	)
+	(pad "2" smd rect
+		(at -2.725 -0.635 90)
+		(size 0.75 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.05)
+		(uuid "299a79f4-59ea-4091-b728-371ab24768c1")
+	)
+	(pad "3" smd rect
+		(at -2.725 0.635 90)
+		(size 0.75 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.05)
+		(uuid "29462a1b-869d-42f2-acb0-7036dc6a233c")
+	)
+	(pad "4" smd rect
+		(at -2.725 1.905 90)
+		(size 0.75 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.05)
+		(uuid "8051e3de-79fe-4638-997a-6ad4facd7bc9")
+	)
+	(pad "5" smd custom
+		(at 0.6975 0 90)
+		(size 4.56 4.055)
+		(layers "F.Cu" "F.Mask")
+		(solder_paste_margin -0.05)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start -2.775 -1.6025)
+				(end 2.775 -0.6975)
+				(width 0.0001)
+				(fill yes)
+			)
+			(gr_rect
+				(start -2.28 2.0275)
+				(end -1.53 2.5025)
+				(width 0.0001)
+				(fill yes)
+			)
+			(gr_rect
+				(start 1.53 2.0275)
+				(end 2.28 2.5025)
+				(width 0.0001)
+				(fill yes)
+			)
+		)
+		(uuid "8e7fb6b5-2412-4093-9d7d-f8d1728fd989")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/SamacSys/NVMFS015N10MCLT1G/3D/NVMFS015N10MCLT1G.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
