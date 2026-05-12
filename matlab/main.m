@@ -1,4 +1,4 @@
-% Copyright © 2025 Julian Joaquin
+% Copyright © 2026 Julian Joaquin
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a
 % copy of this software and associated documentation files (the “Software”),
@@ -47,7 +47,7 @@ caps(1).R = 3e-3 / 6;
 caps(2).C = 100e-6;
 caps(2).R = 16.5e-3;
 
-% PA4342.472NLT
+% PULSE PA4342.472NLT
 L = 4.7e-6;
 Rdcr = 15.5e-3;
 
@@ -67,6 +67,10 @@ Vi = 50;
 Vo = 12;
 caps(1).C = 7.268e-6 * 6;
 
+% WE 7443330820
+L = 8.2e-6;
+Rdcr = 15e-3;
+  
 D = Vo / Vi;
 Rd = Rdcr + Rdson1*D + Rdson2*(1-D);
 
@@ -90,12 +94,14 @@ T = Gv * Gc;
 clear h
 hold on
 
-for t=T
-    h = bodeplot(t);
-    h.XLim = {[1e2,1e7]};
-    h.FrequencyUnit = 'Hz';
-end
+opts = bodeoptions;
+opts.FreqUnits = 'Hz';
+opts.XLim = {[1e2,1e7]};
 
+for t=T
+    %h = bodeplot(t,opts);
+    margin(t)
+end
 grid on
 legend('Vin 5.1V','Vin 12.0V')
 hold off
