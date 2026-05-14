@@ -6,7 +6,7 @@ The SSDV3 is an independently-made, non-isolated DC/DC converter designed for un
 
 ## Comparison with Last Super Step Down
 
-This design is motivated by the challenges encountered by the [UBCO Aerospace Club](https://github.com/UBCOAerospaceClub) with their Jellyfish quadcopter when powering auxiliary electronics off the drone's main battery. Lessons were learned through a variety of integration failures, investigations, and validation testing, and these experiences informed the development of version 3 of the Super Step Down series.
+This design is motivated by the challenges encountered by the [UBCO Aerospace Club](https://github.com/UBCOAerospaceClub) with their Jellyfish quadcopter when powering auxiliary electronics off the drone's main battery. Lessons were learned through a variety of integration failures, investigations, and verification, and these experiences informed the development of version 3 of the Super Step Down series.
 
 ![Comparison](kicad/SSDV3_comparison_gimp.png)
 
@@ -18,6 +18,10 @@ This design is motivated by the challenges encountered by the [UBCO Aerospace Cl
 - Added ESD protection on inputs
 - Features reverse polarity protection
 - Uses direct solder pads instead of terminal block for output connection
+
+## Documentation
+
+[Super Step Down V3 Documentation](https://docs.google.com/document/d/1HDTwUbcQu91JqGZ-epUO-CT9nVxvoZJ6mtjSmItczHE/edit?usp=sharing)
 
 ## Specifications
 
@@ -32,7 +36,7 @@ This design is motivated by the challenges encountered by the [UBCO Aerospace Cl
   </tr>
   <tr>
     <td>Output Voltage(s)</td>
-    <td>5.1V, 7.4V, 9.6V, 12V</td>
+    <td>5.1V, 7.4V, 12V</td>
   </tr>
   <tr>
     <td>Max Output Current*</td>
@@ -43,8 +47,8 @@ This design is motivated by the challenges encountered by the [UBCO Aerospace Cl
     <td>88%</td>
   </tr>
   <tr>
-    <td>Est. Voltage Overshoot</td>
-    <td>200mV</td>
+    <td>Voltage Transient Deviation</td>
+    <td>±2.5%</td>
   </tr>
 </tbody>
 </table>
@@ -59,9 +63,9 @@ This design is motivated by the challenges encountered by the [UBCO Aerospace Cl
 
 ![Transient response](figures/ssdv32542c04_5v_5_0a_trans.png)
 
-**Efficiency Measurements**
+**Efficiency Measurements, 50-V Input**
 
-![Efficiency measurements](figures/efficiency_measurements_20260206.png)
+![Efficiency curves](figures/efficiency_measurements_20260302.svg)
 
 ## Copyright Notice
 
