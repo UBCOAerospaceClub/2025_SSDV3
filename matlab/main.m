@@ -39,7 +39,12 @@ caps = struct;
 
 % GRM31CC71E226ME15L
 % CAP CER 22uF 25V X7S 10% 1206
-caps(1).C = 15e-6 * 6;
+%caps(1).C = 15e-6 * 6;
+%caps(1).R = 3e-3 / 6;
+
+% CL32A226KAJNNNE
+% CAP CER 22uF 25V X5R 10% 1210
+caps(1).C = 17.1e-6 * 6;
 caps(1).R = 3e-3 / 6;
 
 % T521D107M025ATE060
@@ -52,8 +57,8 @@ L = 4.7e-6;
 Rdcr = 15.5e-3;
 
 % BSZ146N10LS5
-Rdson1 = 14.6e-3;
-Rdson2 = 14.6e-3;
+Rdson1 = 12.7e-3;
+Rdson2 = 9.8e-3;
 D = Vo / Vi;
 Rd = Rdcr + Rdson1*D + Rdson2*(1-D);
 
@@ -65,11 +70,11 @@ Gv(1) = vmc_gvd(Vi,Vo,Io,caps,L,Rd) / (Vi / kff);
 % Variation 2
 Vi = 50;
 Vo = 12;
-caps(1).C = 7.268e-6 * 6;
+caps(1).C = 8.83e-6 * 6;
 
 % WE 7443330820
-L = 8.2e-6;
-Rdcr = 15e-3;
+%L = 8.2e-6;
+%Rdcr = 15e-3;
   
 D = Vo / Vi;
 Rd = Rdcr + Rdson1*D + Rdson2*(1-D);
@@ -79,7 +84,7 @@ Gv(2) = vmc_gvd(Vi,Vo,Io,caps,L,Rd) / (Vi / kff);
 %% Compensation
 
 Rfb1 = 20e3;
-Rc2 = 1500;
+Rc2 = 68;
 Cc3 = 1500e-12;
 
 Rc1 = 10e3;
